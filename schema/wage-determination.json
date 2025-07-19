@@ -1,0 +1,445 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://greyflannelconsulting.com/schemas/wage-determination.json",
+  "$defs": {
+    "ConstructionType": {
+      "enum": [
+        "building",
+        "highway",
+        "heavy",
+        "residential"
+      ],
+      "title": "ConstructionType",
+      "type": "string"
+    },
+    "Coordinate": {
+      "properties": {
+        "latitude": {
+          "anyOf": [
+            {
+              "maximum": 90.0,
+              "minimum": -90.0,
+              "type": "number"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "title": "Latitude"
+        },
+        "longitude": {
+          "anyOf": [
+            {
+              "maximum": 180.0,
+              "minimum": -180.0,
+              "type": "number"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "title": "Longitude"
+        }
+      },
+      "required": [
+        "latitude",
+        "longitude"
+      ],
+      "title": "Coordinate",
+      "type": "object"
+    },
+    "DateRange": {
+      "properties": {
+        "start_date": {
+          "format": "date",
+          "title": "Start Date",
+          "type": "string"
+        },
+        "end_date": {
+          "default": "9999-12-31",
+          "format": "date",
+          "title": "End Date",
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_date"
+      ],
+      "title": "DateRange",
+      "type": "object"
+    },
+    "Job": {
+      "properties": {
+        "classification": {
+          "title": "Classification",
+          "type": "string"
+        }
+      },
+      "required": [
+        "classification"
+      ],
+      "title": "Job",
+      "type": "object"
+    },
+    "Location": {
+      "properties": {
+        "state": {
+          "title": "State",
+          "type": "string"
+        },
+        "county": {
+          "title": "County",
+          "type": "string"
+        },
+        "zone": {
+          "$ref": "#/$defs/Zone",
+          "default": null
+        }
+      },
+      "required": [
+        "state",
+        "county"
+      ],
+      "title": "Location",
+      "type": "object"
+    },
+    "Wage": {
+      "properties": {
+        "currency": {
+          "default": "USD",
+          "enum": [
+            "AED",
+            "AFN",
+            "ALL",
+            "AMD",
+            "ANG",
+            "AOA",
+            "ARS",
+            "AUD",
+            "AWG",
+            "AZN",
+            "BAM",
+            "BBD",
+            "BDT",
+            "BGN",
+            "BHD",
+            "BIF",
+            "BMD",
+            "BND",
+            "BOB",
+            "BOV",
+            "BRL",
+            "BSD",
+            "BTN",
+            "BWP",
+            "BYN",
+            "BZD",
+            "CAD",
+            "CDF",
+            "CHE",
+            "CHF",
+            "CHW",
+            "CLF",
+            "CLP",
+            "CNY",
+            "COP",
+            "COU",
+            "CRC",
+            "CUC",
+            "CUP",
+            "CVE",
+            "CZK",
+            "DJF",
+            "DKK",
+            "DOP",
+            "DZD",
+            "EGP",
+            "ERN",
+            "ETB",
+            "EUR",
+            "FJD",
+            "FKP",
+            "GBP",
+            "GEL",
+            "GHS",
+            "GIP",
+            "GMD",
+            "GNF",
+            "GTQ",
+            "GYD",
+            "HKD",
+            "HNL",
+            "HRK",
+            "HTG",
+            "HUF",
+            "IDR",
+            "ILS",
+            "INR",
+            "IQD",
+            "IRR",
+            "ISK",
+            "JMD",
+            "JOD",
+            "JPY",
+            "KES",
+            "KGS",
+            "KHR",
+            "KMF",
+            "KPW",
+            "KRW",
+            "KWD",
+            "KYD",
+            "KZT",
+            "LAK",
+            "LBP",
+            "LKR",
+            "LRD",
+            "LSL",
+            "LYD",
+            "MAD",
+            "MDL",
+            "MGA",
+            "MKD",
+            "MMK",
+            "MNT",
+            "MOP",
+            "MRU",
+            "MUR",
+            "MVR",
+            "MWK",
+            "MXN",
+            "MXV",
+            "MYR",
+            "MZN",
+            "NAD",
+            "NGN",
+            "NIO",
+            "NOK",
+            "NPR",
+            "NZD",
+            "OMR",
+            "PAB",
+            "PEN",
+            "PGK",
+            "PHP",
+            "PKR",
+            "PLN",
+            "PYG",
+            "QAR",
+            "RON",
+            "RSD",
+            "RUB",
+            "RWF",
+            "SAR",
+            "SBD",
+            "SCR",
+            "SDG",
+            "SEK",
+            "SGD",
+            "SHP",
+            "SLE",
+            "SLL",
+            "SOS",
+            "SRD",
+            "SSP",
+            "STN",
+            "SVC",
+            "SYP",
+            "SZL",
+            "THB",
+            "TJS",
+            "TMT",
+            "TND",
+            "TOP",
+            "TRY",
+            "TTD",
+            "TWD",
+            "TZS",
+            "UAH",
+            "UGX",
+            "USD",
+            "USN",
+            "UYI",
+            "UYU",
+            "UYW",
+            "UZS",
+            "VED",
+            "VES",
+            "VND",
+            "VUV",
+            "WST",
+            "XAF",
+            "XCD",
+            "XOF",
+            "XPF",
+            "XSU",
+            "XUA",
+            "YER",
+            "ZAR",
+            "ZMW",
+            "ZWL"
+          ],
+          "maxLength": 3,
+          "minLength": 3,
+          "title": "Currency",
+          "type": "string"
+        },
+        "rate": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "title": "Rate"
+        },
+        "fringe": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "title": "Fringe"
+        }
+      },
+      "required": [
+        "rate",
+        "fringe"
+      ],
+      "title": "Wage",
+      "type": "object"
+    },
+    "Zone": {
+      "properties": {
+        "center": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Coordinate"
+            },
+            {
+              "maxItems": 2,
+              "minItems": 2,
+              "prefixItems": [
+                {
+                  "anyOf": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "anyOf": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                }
+              ],
+              "type": "array"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "title": "Center"
+        },
+        "radius_min": {
+          "default": 0.0,
+          "minimum": 0,
+          "title": "Radius Min",
+          "type": "number"
+        },
+        "radius_max": {
+          "default": null,
+          "minimum": 0,
+          "title": "Radius Max",
+          "type": "number"
+        }
+      },
+      "required": [
+        "center"
+      ],
+      "title": "Zone",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "decision_number": {
+      "pattern": "^[A-Z]{2}[0-9]{8}$",
+      "title": "Decision Number",
+      "type": "string"
+    },
+    "modification_number": {
+      "minimum": 0,
+      "title": "Modification Number",
+      "type": "integer"
+    },
+    "publication_date": {
+      "format": "date",
+      "title": "Publication Date",
+      "type": "string"
+    },
+    "effective": {
+      "$ref": "#/$defs/DateRange"
+    },
+    "active": {
+      "title": "Active",
+      "type": "boolean"
+    },
+    "construction_types": {
+      "items": {
+        "$ref": "#/$defs/ConstructionType"
+      },
+      "minItems": 1,
+      "title": "Construction Types",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "location": {
+      "$ref": "#/$defs/Location"
+    },
+    "rate_identifier": {
+      "title": "Rate Identifier",
+      "type": "string"
+    },
+    "survey_date": {
+      "format": "date",
+      "title": "Survey Date",
+      "type": "string"
+    },
+    "job": {
+      "$ref": "#/$defs/Job"
+    },
+    "wage": {
+      "$ref": "#/$defs/Wage"
+    }
+  },
+  "required": [
+    "decision_number",
+    "modification_number",
+    "publication_date",
+    "effective",
+    "active",
+    "construction_types",
+    "location",
+    "rate_identifier",
+    "survey_date",
+    "job",
+    "wage"
+  ],
+  "title": "WageDetermination",
+  "type": "object"
+}
