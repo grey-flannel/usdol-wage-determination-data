@@ -91,16 +91,16 @@ def get_construction_types(document):
 
 
 def get_wage_groups(document):
-    document = document.replace('\n', ' ')
     document = document.split('================================================================')[0]
-    groups = re.findall(r'[A-Z]{4}[0-9]{4}-[0-9]{3}.*?----- ', document)
-    groups = (g.replace('----------------------------------------------------------------', '') for g in groups)
-    groups = (re.sub(r'\s+', ' ', g) for g in groups)
-    # groups = (re.sub(r'\s+', ' ', g) for g in groups)
-    groups = (g.replace(' Rates Fringes ', ' ') for g in groups)
-    groups = (g.replace(' ** ', ' ') for g in groups)
-    groups = (re.sub(r'\.+\$ ', ' $ ', g) for g in groups)
+    document += '=========='
+    groups = re.findall(r'[A-Z]{4}[0-9]{4}-[0-9]{3}.*?(?:----------|==========)', document, re.DOTALL)
+    groups = (g.replace('----------', '').replace('==========', '').strip() for g in groups)
+    groups = (re.sub(r'\s*Rates\s*Fringes\s*', '\n\n', g) for g in groups)
     return groups
+
+
+def num_experience_splits_present(document):
+    expected_len_job_wages = len(re.findall(r'\.+\$', document))
 
 
 def welders_present(document):
@@ -112,8 +112,7 @@ def add_welders_if_present(document, job_wages):
         rate_identifier = ''
         survey_date = get_publication_date(document)
         job = {'classification': 'WELDER'}
-        wage = {'rate': 0.0, 'fringe': 0.0}
-        job_wages.append((rate_identifier, survey_date, job, wage))
+        job_wages.append((rate_identifier, survey_date, job, None))
 
 
 def validate_job_wages(document, job_wages):
@@ -123,61 +122,94 @@ def validate_job_wages(document, job_wages):
         expected_len_job_wages += 1
     actual_len_job_wages = len(job_wages)
     if len(job_wages) != expected_len_job_wages:
-        for jw in job_wages:
-            print(jw)
         raise ValueError(f'Parsed {actual_len_job_wages} job wages but expected {expected_len_job_wages}')
 
 
 def parse_wage_group(wage_group):
-    rate_identifier = wage_group[0:12]
-    survey_date = datetime.datetime.strptime(wage_group[13:23], '%m/%d/%Y').date().isoformat()
-    classification_groups = re.findall(r'.*? \$ \S+ \S+', wage_group[24:])
+    wage_group_items = wage_group.split('\n\n')
+    rate_identifier, survey_date = wage_group_items[0].split()
+    survey_date = datetime.datetime.strptime(survey_date, '%m/%d/%Y').date().isoformat()
+    classification_groups = wage_group_items[1:]
     return rate_identifier, survey_date, classification_groups
 
 
-def get_classification_prefix(classification):
-    words = classification.split(' ')
-    uppercase_words = (w for w in words if not re.search(r'[a-z]', w))
-    return ' '.join(uppercase_words)
+def get_job(classification, subclassification=''):
+    classification = re.sub(r'\s+', ' ', classification).strip()
+    classification = re.sub(r'\.*$', '', classification)
+    subclassification = re.sub(r'\s+', ' ', subclassification).strip()
+    subclassification = re.sub(r'\.*$', '', subclassification)
+    if subclassification:
+        subclassification = subclassification.replace('(', '').replace(')', '')
+        classification = f'{classification} ({subclassification.strip()})'
+    return {'classification': classification}
 
 
-def get_job(classification, classification_prefix):
-    print(classification)
-    if classification.startswith(' '):
-        classification = classification_prefix + classification
+def get_wage(wage_group):
+    wage_group = re.sub(r'\s+', ' ', wage_group).strip()
+    wage_items = wage_group.split()
+    rate = wage_items[0]
+    if wage_items[1] == '**':
+        fringe = wage_items[2]
     else:
-        classification_prefix = get_classification_prefix(classification)
-    # TO-DO fix up classification to consistently format descriptor after classification
-    # TO-DO consider a sub-classification in the model?
-    return {'classification': classification}, classification_prefix
-
-
-def get_wage(rate, fringe):
+        fringe = wage_items[1]
     fringe = re.sub(r'\+[a-z]', '', fringe)
+    if '%+' in fringe:
+        fringe_percentage, fringe_fixed = fringe.split('%+')
+        fringe_percentage = float(fringe_percentage) / 100.0
+        fringe = {'fixed': fringe_fixed, 'percentage': f'{fringe_percentage:0.03f}'}
+    elif fringe.endswith('%'):
+        fringe_percentage = float(fringe[:-1]) / 100.0
+        fringe = {'fixed': fringe_fixed, 'percentage': f'{fringe_percentage:0.03f}'}
     if '%' not in fringe:
         fringe = f'0%+{fringe}'
     if '+' not in fringe:
         fringe = f'{fringe}+0.00'
-    fringe_percentage, fringe_fixed = fringe.split('%+')
-    fringe_value = float(rate) * float(fringe_percentage) / 100.0 + float(fringe_fixed)
-    fringe = f'{fringe_value:0.02f}'
+    
+    
     return {'rate': rate, 'fringe': fringe}
+
+
+def process_classification_lines(rate_identifier, survey_date, classification_lines, job_wages):
+    classification = ''
+    subclassification = ''
+    for classification_line in classification_lines:
+        is_indented = classification_line.startswith(' ')
+        has_wage = '.$ ' in classification_line
+        if is_indented:
+            subclassification = subclassification + classification_line
+        else:
+            classification += classification_line
+        if not has_wage:
+            continue
+        if is_indented:
+            subclassification, wage_group = subclassification.split('.$')
+            job = get_job(classification, subclassification)
+        else:
+            classification, wage_group = classification.split('.$')
+            job = get_job(classification)
+            classification = ''
+        subclassification = ''
+        wage = get_wage(wage_group)
+        if job['classification'] == 'ELEVATOR MECHANIC':
+            job['classification'] = 'ELEVATOR MECHANIC (Under 5 years)'
+            wage['fringe']['percentage'] = '0.06'
+            job_wages.append((rate_identifier, survey_date, job, wage))
+            job['classification'] = 'ELEVATOR MECHANIC (Over 5 years)'
+            wage['fringe']['percentage'] = '0.08'
+            job_wages.append((rate_identifier, survey_date, job, wage))
+        else:
+            job_wages.append((rate_identifier, survey_date, job, wage))
+        
 
 
 def get_job_wages(document):
     wage_groups = get_wage_groups(document)
     job_wages = []
     for wage_group in wage_groups:
-        print(wage_group)
-        continue
         rate_identifier, survey_date, classification_groups = parse_wage_group(wage_group)
-        classification_prefix = None
         for classifiction_group in classification_groups:
-            classification, wage_group = classifiction_group.split(' $ ')
-            rate, fringe = wage_group.split()
-            job, classification_prefix = get_job(classification, classification_prefix)
-            wage = get_wage(rate, fringe)
-            job_wages.append((rate_identifier, survey_date, job, wage))
+            classification_lines = classifiction_group.splitlines()
+            process_classification_lines(rate_identifier, survey_date, classification_lines, job_wages)
     add_welders_if_present(document, job_wages)
     validate_job_wages(document, job_wages)
     return job_wages
@@ -204,9 +236,37 @@ def create_wage_determinations(decision_number, modification_number, active, sta
         wage_determination['rate_identifier'] = rate_identifier
         wage_determination['survey_date'] = survey_date
         wage_determination['job'] = job
-        wage_determination['wage'] = wage
+        if wage is not None:
+            wage_determination['wage'] = wage
+        else:
+            del wage_determination['wage']
         wage_determinations.append(WageDetermination(**wage_determination))
     return wage_determinations
+
+
+def serialize_wage_determinations(wage_determinations):
+    serialized_wage_determinations = [orjson.loads(w.model_dump_json()) for w in wage_determinations]
+    deserialized_wage_determinations = [WageDetermination(**w) for w in serialized_wage_determinations]
+    return serialized_wage_determinations
+
+
+def write_wage_determination_document(decision_number, modification_number, state, document):
+    document_path = os.path.join('data', 'documents', state)
+    document_filename = os.path.join(document_path, f'{decision_number}.{modification_number}.txt')
+    os.makedirs(document_path, exist_ok=True)
+    print(f'Writing wage determination document to {document_filename}')
+    with open(document_filename, 'w') as document_file:
+        document_file.write(document)
+
+
+def write_wage_determination_records(decision_number, modification_number, state, wage_determinations):
+    wage_determination_path = os.path.join('data', 'wage-determinations', state)
+    wage_determination_filename = os.path.join(wage_determination_path, f'{decision_number}.{modification_number}.json')
+    os.makedirs(wage_determination_path, exist_ok=True)
+    print(f'Writing wage determination record to {wage_determination_filename}')
+    with open(wage_determination_filename, 'wb') as wage_determination_file:
+        wage_determination_records = {f'{decision_number}.{modification_number}': wage_determinations}
+        wage_determination_file.write(orjson.dumps(wage_determination_records, option=orjson.OPT_INDENT_2))
 
 
 record_list = [r for n in decision_numbers for r in get_wage_determination_records(n)]
@@ -215,18 +275,15 @@ print(f'Collected {len(record_list)} wage determination documents to be parsed')
 
 
 for decision_number, modification_number, active, state, document in record_list:
-    wage_determination_path = os.path.join('data', 'wage-determinations', state)
-    wage_determination_filename = os.path.join(wage_determination_path, f'{decision_number}.{modification_number}.json')
-    os.makedirs(wage_determination_path, exist_ok=True)
+    write_wage_determination_document(decision_number, modification_number, state, document)
     try:
         wage_determinations = create_wage_determinations(decision_number, modification_number, active, state, document)
     except Exception as error:
         print(f'Unable to parse document {decision_number}.{modification_number}: {error}')
-        print(document)
-        raise
-    serialized_wage_determinations = [orjson.loads(w.model_dump_json()) for w in wage_determinations]
-    deserialized_wage_determinations = [WageDetermination(**w) for w in serialized_wage_determinations]
-    print(f'Writing wage determination record to {wage_determination_filename}')
-    with open(wage_determination_filename, 'wb') as wage_determination_file:
-        wage_determination_records = {f'{decision_number}.{modification_number}': serialized_wage_determinations}
-        wage_determination_file.write(orjson.dumps(wage_determination_records, option=orjson.OPT_INDENT_2))
+        continue
+    try:
+        wage_determinations = serialize_wage_determinations(wage_determinations)
+    except Exception as error:
+        print(f'Unable to validate wage determinations from {decision_number}.{modification_number}: {error}')
+        continue
+    write_wage_determination_records(decision_number, modification_number, state, wage_determinations)
