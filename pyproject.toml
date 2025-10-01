@@ -1,6 +1,7 @@
 [project]
 name = "usdol-wage-determination-data"
 version = "0.1.0"
+license = { file = "LICENSE.md" }
 requires-python = ">=3.13"
 dependencies = [
     "cachier>=3.1.2",
