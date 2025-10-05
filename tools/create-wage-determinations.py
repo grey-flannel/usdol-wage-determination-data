@@ -1,4 +1,6 @@
+import copy
 import datetime
+import decimal
 import os
 import itertools
 import re
@@ -74,37 +76,60 @@ def get_effective_dates(decision_number, modification_number, publication_date):
 
 
 def get_counties(document):
-    document = document.replace('\n', ' ')
+    document = re.sub(r'\s+', ' ', document).strip()
     match = re.search(r'Count(?:y|ies): (.+) Count(?:y|ies) in', document)
     if match:
         return split_text_list(match[1])
     else:
-        return None
+        return []
 
 
 def get_construction_types(document):
+    document = re.sub(r'\s+', ' ', document).strip()
     match = re.search(r'Construction Types?: (\w+)', document)
     if match:
         return split_text_list(match[1].lower())
     else:
-        return None
+        return []
 
 
 def get_wage_groups(document):
     document = document.split('================================================================')[0]
     document += '=========='
-    groups = re.findall(r'[A-Z]{4}[0-9]{4}-[0-9]{3}.*?(?:----------|==========)', document, re.DOTALL)
+    wage_group_pattern = r'(?:[A-Z]{4}[0-9]{4}-[0-9]{3}|[A-Z]{4}-[A-Z]{2}-[0-9]{4}).*?(?:----------|==========)'
+    groups = re.findall(wage_group_pattern, document, re.DOTALL)
     groups = (g.replace('----------', '').replace('==========', '').strip() for g in groups)
     groups = (re.sub(r'\s*Rates\s*Fringes\s*', '\n\n', g) for g in groups)
     return groups
 
 
-def num_experience_splits_present(document):
-    expected_len_job_wages = len(re.findall(r'\.+\$', document))
+def num_rate_rows(document):
+    return len(re.findall(r'\.+\$', document))
+
+
+def num_experience_splits(state, document):
+    if state == 'AZ' and 'AZ20220031' in document:
+        return 7
+    elif state == 'GA' in 'GA20220050' in document:
+        return 2
+    elif state == 'TX':
+        return len(re.findall(r'Footnote:|FOOTNOTE:|Footnotes:|FOOTNOTES:', document))
+    else:
+        return 0
 
 
 def welders_present(document):
     return 'WELDERS - Receive rate prescribed for craft' in document
+
+
+def validate_job_wages(state, document, job_wages):
+    expected_len_job_wages = num_rate_rows(document)
+    expected_len_job_wages += num_experience_splits(state, document)
+    if welders_present(document):
+        expected_len_job_wages += 1
+    actual_len_job_wages = len(job_wages)
+    if len(job_wages) != expected_len_job_wages:
+        raise ValueError(f'Parsed {actual_len_job_wages} job wages but expected {expected_len_job_wages}')
 
 
 def add_welders_if_present(document, job_wages):
@@ -113,16 +138,6 @@ def add_welders_if_present(document, job_wages):
         survey_date = get_publication_date(document)
         job = {'classification': 'WELDER'}
         job_wages.append((rate_identifier, survey_date, job, None))
-
-
-def validate_job_wages(document, job_wages):
-    # TODO beef this up by doing more checks
-    expected_len_job_wages = len(re.findall(r'\.+\$', document))
-    if welders_present(document):
-        expected_len_job_wages += 1
-    actual_len_job_wages = len(job_wages)
-    if len(job_wages) != expected_len_job_wages:
-        raise ValueError(f'Parsed {actual_len_job_wages} job wages but expected {expected_len_job_wages}')
 
 
 def parse_wage_group(wage_group):
@@ -135,8 +150,10 @@ def parse_wage_group(wage_group):
 
 def get_job(classification, subclassification=''):
     classification = re.sub(r'\s+', ' ', classification).strip()
+    classification = re.sub(r'\(\d+\)', '', classification)
     classification = re.sub(r'\.*$', '', classification)
     subclassification = re.sub(r'\s+', ' ', subclassification).strip()
+    subclassification = re.sub(r'\(\d+\)', '', subclassification)
     subclassification = re.sub(r'\.*$', '', subclassification)
     if subclassification:
         subclassification = subclassification.replace('(', '').replace(')', '')
@@ -144,32 +161,101 @@ def get_job(classification, subclassification=''):
     return {'classification': classification}
 
 
-def get_wage(wage_group):
+def apply_special_case_modifications(state, rate_identifier, survey_date, job, wage, footnotes):
+    job_wages = [(rate_identifier, survey_date, job, wage)]
+    if state == 'AZ' and rate_identifier == 'BRAZ0003-009':
+        location = 'miles from the intersection of Central Ave, and Washington St., Phoenix, AZ'
+        modifications = [
+            (f' (Zone A: 0-60 {location})', decimal.Decimal('0.00')),
+            (f' (Zone B: 61-75 {location})', decimal.Decimal('2.00')),
+            (f' (Zone C: 75-100 {location})', decimal.Decimal('3.00')),
+            (f' (Zone D: 101-200 {location})', decimal.Decimal('3.50')),
+            (f' (Zone E: Over 200 {location})', decimal.Decimal('6.50')),
+        ]
+        job_wages = []
+        for classification_suffix, rate_increase in modifications:
+            modified_job = copy.deepcopy(job)
+            modified_wage = copy.deepcopy(wage)
+            modified_job['classification'] += classification_suffix
+            modified_wage['rate'] = str(decimal.Decimal(modified_wage['rate']) + rate_increase)
+            job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
+    if state == 'AZ' and rate_identifier == 'IRON0075-011':
+        location = 'miles from City Hall in Phoenix or Tucson'
+        modifications = [
+            (f' (Zone 1: 0-60 {location})', decimal.Decimal('0.00')),
+            (f' (Zone 2: 61-75 {location})', decimal.Decimal('4.00')),
+            (f' (Zone 3: 75-100 {location})', decimal.Decimal('5.00')),
+            (f' (Zone 4: 101-200 {location})', decimal.Decimal('6.50')),
+        ]
+        job_wages = []
+        for classification_suffix, rate_increase in modifications:
+            modified_job = copy.deepcopy(job)
+            modified_wage = copy.deepcopy(wage)
+            modified_job['classification'] += classification_suffix
+            modified_wage['rate'] = str(decimal.Decimal(modified_wage['rate']) + rate_increase)
+            job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
+    if state == 'AZ' and rate_identifier == 'PAIN0086-006':
+        job_wages = []
+        if 'ZONE A' in job['classification']:
+            zone_a_note = 'ZONE A: Free Zone: A distance of 0 to 100 miles from the old Phoenix courthouse'
+            job['classification'] = job['classification'].replace('ZONE A', zone_a_note)
+        if 'ZONE B' in job['classification']:
+            zone_b_note = 'ZONE B: A distance of 101 miles and over from the old Phoenix courthouse'
+            job['classification'] = job['classification'].replace('ZONE B', zone_b_note)
+        job_wages.append((rate_identifier, survey_date, job, wage))
+    if state == 'GA' and rate_identifier == 'SHEE0085-004':
+        message = 'Work on swinging stages, boatswains chairs or scaffolds, booms, or scissors lifts over 50 ft. high'
+        modifications = [
+            ('', decimal.Decimal('0.00')),
+            (f' ({message})', decimal.Decimal('1.25')),
+        ]
+        job_wages = []
+        for classification_suffix, rate_increase in modifications:
+            modified_job = copy.deepcopy(job)
+            modified_wage = copy.deepcopy(wage)
+            modified_job['classification'] += classification_suffix
+            modified_wage['rate'] = str(decimal.Decimal(modified_wage['rate']) + rate_increase)
+            job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
+    if state == 'TX' and job['classification'].startswith('ELEVATOR MECHANIC'):
+        modifications = [
+            (' (Under 5 years)', '0.06'),
+            (' (Over 5 years)', '0.08'),
+        ]
+        job_wages = []
+        for classification_suffix, fringe_percentage in modifications:
+            modified_job = copy.deepcopy(job)
+            modified_wage = copy.deepcopy(wage)
+            modified_job['classification'] += classification_suffix
+            modified_wage['fringe']['percentage'] = fringe_percentage
+            job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
+    return job_wages
+
+
+def get_new_job_wages(state, rate_identifier, survey_date, job, wage_group):
     wage_group = re.sub(r'\s+', ' ', wage_group).strip()
     wage_items = wage_group.split()
     rate = wage_items[0]
     if wage_items[1] == '**':
-        fringe = wage_items[2]
+        fringe_string = wage_items[2]
     else:
-        fringe = wage_items[1]
-    fringe = re.sub(r'\+[a-z]', '', fringe)
-    if '%+' in fringe:
-        fringe_percentage, fringe_fixed = fringe.split('%+')
-        fringe_percentage = float(fringe_percentage) / 100.0
-        fringe = {'fixed': fringe_fixed, 'percentage': f'{fringe_percentage:0.03f}'}
-    elif fringe.endswith('%'):
-        fringe_percentage = float(fringe[:-1]) / 100.0
-        fringe = {'fixed': fringe_fixed, 'percentage': f'{fringe_percentage:0.03f}'}
-    if '%' not in fringe:
-        fringe = f'0%+{fringe}'
-    if '+' not in fringe:
-        fringe = f'{fringe}+0.00'
-    
-    
-    return {'rate': rate, 'fringe': fringe}
+        fringe_string = wage_items[1]
+    footnotes = re.findall(r'\+[a-z]', fringe_string)
+    fringe_string = re.sub(r'\+[a-z]', '', fringe_string)
+    if '%+' in fringe_string:
+        percentage, fixed = fringe_string.split('%+')
+        percentage = float(percentage) / 100.0
+        fringe = {'fixed': fixed, 'percentage': f'{percentage:0.03f}'}
+    elif fringe_string.endswith('%'):
+        percentage = float(fringe_string[:-1]) / 100.0
+        fringe = {'percentage': f'{percentage:0.03f}'}
+    else:
+        fixed = fringe_string
+        fringe = {'fixed': fixed}
+    wage = {'rate': rate, 'fringe': fringe}
+    return apply_special_case_modifications(state, rate_identifier, survey_date, job, wage, footnotes)
 
 
-def process_classification_lines(rate_identifier, survey_date, classification_lines, job_wages):
+def process_classification_lines(state, rate_identifier, survey_date, classification_lines, job_wages):
     classification = ''
     subclassification = ''
     for classification_line in classification_lines:
@@ -189,29 +275,20 @@ def process_classification_lines(rate_identifier, survey_date, classification_li
             job = get_job(classification)
             classification = ''
         subclassification = ''
-        wage = get_wage(wage_group)
-        if job['classification'] == 'ELEVATOR MECHANIC':
-            job['classification'] = 'ELEVATOR MECHANIC (Under 5 years)'
-            wage['fringe']['percentage'] = '0.06'
-            job_wages.append((rate_identifier, survey_date, job, wage))
-            job['classification'] = 'ELEVATOR MECHANIC (Over 5 years)'
-            wage['fringe']['percentage'] = '0.08'
-            job_wages.append((rate_identifier, survey_date, job, wage))
-        else:
-            job_wages.append((rate_identifier, survey_date, job, wage))
-        
+        new_job_wages = get_new_job_wages(state, rate_identifier, survey_date, job, wage_group)
+        job_wages.extend(new_job_wages)
 
 
-def get_job_wages(document):
+def get_job_wages(state, document):
     wage_groups = get_wage_groups(document)
     job_wages = []
     for wage_group in wage_groups:
         rate_identifier, survey_date, classification_groups = parse_wage_group(wage_group)
         for classifiction_group in classification_groups:
             classification_lines = classifiction_group.splitlines()
-            process_classification_lines(rate_identifier, survey_date, classification_lines, job_wages)
+            process_classification_lines(state, rate_identifier, survey_date, classification_lines, job_wages)
     add_welders_if_present(document, job_wages)
-    validate_job_wages(document, job_wages)
+    validate_job_wages(state, document, job_wages)
     return job_wages
 
 
@@ -220,7 +297,7 @@ def create_wage_determinations(decision_number, modification_number, active, sta
     effective_dates = get_effective_dates(decision_number, modification_number, publication_date)
     construction_types = get_construction_types(document)
     counties = get_counties(document)
-    job_wages = get_job_wages(document)
+    job_wages = get_job_wages(state, document)
     wage_determination = {
         'decision_number': decision_number,
         'modification_number': modification_number,
