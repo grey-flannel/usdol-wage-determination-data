@@ -110,10 +110,16 @@ def num_rate_rows(document):
 def num_experience_splits(state, document):
     if state == 'AZ' and 'AZ20220031' in document:
         return 7
-    elif state == 'GA' in 'GA20220050' in document:
+    elif state == 'GA' and 'GA20220050' in document:
         return 2
+    elif state == 'NH' and 'NH20240021' in document:
+        return 1
+    elif state == 'OH' and 'OH20220086' in document:
+        return 1
     elif state == 'TX':
         return len(re.findall(r'Footnote:|FOOTNOTE:|Footnotes:|FOOTNOTES:', document))
+    elif state == 'UT' and 'UT20240087' in document:
+        return 1
     else:
         return 0
 
@@ -216,10 +222,46 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
             modified_job['classification'] += classification_suffix
             modified_wage['rate'] = str(decimal.Decimal(modified_wage['rate']) + rate_increase)
             job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
+    if state == 'NH' and job['classification'].startswith('ELEVATOR MECHANIC'):
+        modifications = [
+            (' (6 months to 5 years)', '0.06'),
+            (' (5 years or more)', '0.08'),
+        ]
+        job_wages = []
+        for classification_suffix, fringe_percentage in modifications:
+            modified_job = copy.deepcopy(job)
+            modified_wage = copy.deepcopy(wage)
+            modified_job['classification'] += classification_suffix
+            modified_wage['fringe']['percentage'] = fringe_percentage
+            job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
+    if state == 'OH' and job['classification'].startswith('ELEVATOR MECHANIC'):
+        modifications = [
+            (' (Less than 5 years)', '0.06'),
+            (' (More than 5 years)', '0.08'),
+        ]
+        job_wages = []
+        for classification_suffix, fringe_percentage in modifications:
+            modified_job = copy.deepcopy(job)
+            modified_wage = copy.deepcopy(wage)
+            modified_job['classification'] += classification_suffix
+            modified_wage['fringe']['percentage'] = fringe_percentage
+            job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
     if state == 'TX' and job['classification'].startswith('ELEVATOR MECHANIC'):
         modifications = [
             (' (Under 5 years)', '0.06'),
             (' (Over 5 years)', '0.08'),
+        ]
+        job_wages = []
+        for classification_suffix, fringe_percentage in modifications:
+            modified_job = copy.deepcopy(job)
+            modified_wage = copy.deepcopy(wage)
+            modified_job['classification'] += classification_suffix
+            modified_wage['fringe']['percentage'] = fringe_percentage
+            job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
+    if state == 'UT' and job['classification'].startswith('ELEVATOR MECHANIC'):
+        modifications = [
+            (' (Under 5 years)', '0.06'),
+            (' (5 or more years)', '0.08'),
         ]
         job_wages = []
         for classification_suffix, fringe_percentage in modifications:
@@ -234,11 +276,21 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
 def get_new_job_wages(state, rate_identifier, survey_date, job, wage_group):
     wage_group = re.sub(r'\s+', ' ', wage_group).strip()
     wage_items = wage_group.split()
-    rate = wage_items[0]
-    if wage_items[1] == '**':
+    num_wage_items = len(wage_items)
+    if num_wage_items == 0:
+        rate = '0.00'
+        fringe_string = '0.00'
+    elif num_wage_items == 1:
+        rate = wage_items[0]
+        fringe_string = '0.00'
+    elif num_wage_items == 2:
+        rate = wage_items[0]
+        fringe_string = '0.00' if wage_items[1] == '**' else wage_items[1]
+    elif num_wage_items == 3:
+        rate = wage_items[0]
         fringe_string = wage_items[2]
     else:
-        fringe_string = wage_items[1]
+        raise ValueError
     footnotes = re.findall(r'\+[a-z]', fringe_string)
     fringe_string = re.sub(r'\+[a-z]', '', fringe_string)
     if '%+' in fringe_string:
