@@ -1,0 +1,964 @@
+{
+  "ID20230104.0": [
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "BRIC0001-001",
+      "survey_date": "2022-06-01",
+      "job": {
+        "classification": "BRICKLAYER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.53",
+        "fringe": {
+          "fixed": "19.85"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "ELEC0291-007",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "ELECTRICIAN"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "37.90",
+        "fringe": {
+          "fixed": "14.80",
+          "percentage": "0.060"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "ENGI0302-012",
+      "survey_date": "2022-06-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Forklift)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "33.74",
+        "fringe": {
+          "fixed": "17.65"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "ENGI0302-012",
+      "survey_date": "2022-06-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Loader)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "33.74",
+        "fringe": {
+          "fixed": "17.65"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "IRON0732-004",
+      "survey_date": "2022-06-01",
+      "job": {
+        "classification": "IRONWORKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.10",
+        "fringe": {
+          "fixed": "20.48"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "LABO0155-012",
+      "survey_date": "2022-06-01",
+      "job": {
+        "classification": "LABORER (Grade Checker)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "34.97",
+        "fringe": {
+          "fixed": "13.80"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "LABO0155-012",
+      "survey_date": "2022-06-01",
+      "job": {
+        "classification": "LABORER (Mason Tender - Cement/Concrete)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "34.86",
+        "fringe": {
+          "fixed": "13.80"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "SHEE0055-006",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "SHEET METAL WORKER (HVAC Duct and Unit Installation Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "34.20",
+        "fringe": {
+          "fixed": "19.60"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "SHEE0103-012",
+      "survey_date": "2023-01-01",
+      "job": {
+        "classification": "SHEET METAL WORKER (Excludes HVAC Duct and Unit Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "29.27",
+        "fringe": {
+          "fixed": "21.48"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "UAVG-ID-0001",
+      "survey_date": "2023-05-03",
+      "job": {
+        "classification": "OPERATOR: Crane"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.36",
+        "fringe": {
+          "fixed": "19.22"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "SUID2021-005",
+      "survey_date": "2023-04-27",
+      "job": {
+        "classification": "CARPENTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.49",
+        "fringe": {
+          "fixed": "3.61"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "SUID2021-005",
+      "survey_date": "2023-04-27",
+      "job": {
+        "classification": "CEMENT MASON/CONCRETE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.21",
+        "fringe": {
+          "fixed": "3.80"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "SUID2021-005",
+      "survey_date": "2023-04-27",
+      "job": {
+        "classification": "LABORER: Common or General"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.26",
+        "fringe": {
+          "fixed": "3.62"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "SUID2021-005",
+      "survey_date": "2023-04-27",
+      "job": {
+        "classification": "OPERATOR: Backhoe/Excavator/Trackhoe"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.60",
+        "fringe": {
+          "fixed": "4.33"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "SUID2021-005",
+      "survey_date": "2023-04-27",
+      "job": {
+        "classification": "PAINTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.11",
+        "fringe": {
+          "fixed": "1.25"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "SUID2021-005",
+      "survey_date": "2023-04-27",
+      "job": {
+        "classification": "ROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.08",
+        "fringe": {
+          "fixed": "2.06"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "SUID2021-005",
+      "survey_date": "2023-04-27",
+      "job": {
+        "classification": "TRUCK DRIVER: Dump Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.06",
+        "fringe": {
+          "fixed": "8.81"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Ada"
+      },
+      "rate_identifier": "",
+      "survey_date": "2023-08-04",
+      "job": {
+        "classification": "WELDER"
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "BRIC0001-001",
+      "survey_date": "2022-06-01",
+      "job": {
+        "classification": "BRICKLAYER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.53",
+        "fringe": {
+          "fixed": "19.85"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "ELEC0291-007",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "ELECTRICIAN"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "37.90",
+        "fringe": {
+          "fixed": "14.80",
+          "percentage": "0.060"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "ENGI0302-012",
+      "survey_date": "2022-06-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Forklift)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "33.74",
+        "fringe": {
+          "fixed": "17.65"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "ENGI0302-012",
+      "survey_date": "2022-06-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Loader)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "33.74",
+        "fringe": {
+          "fixed": "17.65"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "IRON0732-004",
+      "survey_date": "2022-06-01",
+      "job": {
+        "classification": "IRONWORKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.10",
+        "fringe": {
+          "fixed": "20.48"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "LABO0155-012",
+      "survey_date": "2022-06-01",
+      "job": {
+        "classification": "LABORER (Grade Checker)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "34.97",
+        "fringe": {
+          "fixed": "13.80"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "LABO0155-012",
+      "survey_date": "2022-06-01",
+      "job": {
+        "classification": "LABORER (Mason Tender - Cement/Concrete)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "34.86",
+        "fringe": {
+          "fixed": "13.80"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "SHEE0055-006",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "SHEET METAL WORKER (HVAC Duct and Unit Installation Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "34.20",
+        "fringe": {
+          "fixed": "19.60"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "SHEE0103-012",
+      "survey_date": "2023-01-01",
+      "job": {
+        "classification": "SHEET METAL WORKER (Excludes HVAC Duct and Unit Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "29.27",
+        "fringe": {
+          "fixed": "21.48"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "UAVG-ID-0001",
+      "survey_date": "2023-05-03",
+      "job": {
+        "classification": "OPERATOR: Crane"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.36",
+        "fringe": {
+          "fixed": "19.22"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "SUID2021-005",
+      "survey_date": "2023-04-27",
+      "job": {
+        "classification": "CARPENTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.49",
+        "fringe": {
+          "fixed": "3.61"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "SUID2021-005",
+      "survey_date": "2023-04-27",
+      "job": {
+        "classification": "CEMENT MASON/CONCRETE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.21",
+        "fringe": {
+          "fixed": "3.80"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "SUID2021-005",
+      "survey_date": "2023-04-27",
+      "job": {
+        "classification": "LABORER: Common or General"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.26",
+        "fringe": {
+          "fixed": "3.62"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "SUID2021-005",
+      "survey_date": "2023-04-27",
+      "job": {
+        "classification": "OPERATOR: Backhoe/Excavator/Trackhoe"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.60",
+        "fringe": {
+          "fixed": "4.33"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "SUID2021-005",
+      "survey_date": "2023-04-27",
+      "job": {
+        "classification": "PAINTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.11",
+        "fringe": {
+          "fixed": "1.25"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "SUID2021-005",
+      "survey_date": "2023-04-27",
+      "job": {
+        "classification": "ROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.08",
+        "fringe": {
+          "fixed": "2.06"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "SUID2021-005",
+      "survey_date": "2023-04-27",
+      "job": {
+        "classification": "TRUCK DRIVER: Dump Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.06",
+        "fringe": {
+          "fixed": "8.81"
+        }
+      }
+    },
+    {
+      "decision_number": "ID20230104",
+      "modification_number": 0,
+      "publication_date": "2023-08-04",
+      "effective": {
+        "start_date": "2023-08-04",
+        "end_date": "9999-12-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "ID",
+        "county": "Boise"
+      },
+      "rate_identifier": "",
+      "survey_date": "2023-08-04",
+      "job": {
+        "classification": "WELDER"
+      }
+    }
+  ]
+}

@@ -1,0 +1,722 @@
+{
+  "UT20240087.0": [
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "CARP0801-002",
+      "survey_date": "2022-12-01",
+      "job": {
+        "classification": "CARPENTER (Drywall Hanging and Metal Stud Installation Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "31.66",
+        "fringe": {
+          "fixed": "13.97"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "ELEC0354-004",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "ELECTRICIAN"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "39.00",
+        "fringe": {
+          "fixed": "16.55",
+          "percentage": "0.013"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "ELEV0038-003",
+      "survey_date": "2023-01-01",
+      "job": {
+        "classification": "ELEVATOR MECHANIC (Under 5 years)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "50.87",
+        "fringe": {
+          "fixed": "37.335",
+          "percentage": "0.06",
+          "holidays": [
+            "New Year's Day",
+            "Independence Day",
+            "Memorial Day",
+            "Christmas Day",
+            "Day After Thanksgiving",
+            "Veterans Day",
+            "Thanksgiving Day",
+            "Labor Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "ELEV0038-003",
+      "survey_date": "2023-01-01",
+      "job": {
+        "classification": "ELEVATOR MECHANIC (5 or more years)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "50.87",
+        "fringe": {
+          "fixed": "37.335",
+          "percentage": "0.08",
+          "holidays": [
+            "New Year's Day",
+            "Independence Day",
+            "Memorial Day",
+            "Christmas Day",
+            "Day After Thanksgiving",
+            "Veterans Day",
+            "Thanksgiving Day",
+            "Labor Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "PAIN0077-005",
+      "survey_date": "2022-08-01",
+      "job": {
+        "classification": "PAINTER (Spray Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.50",
+        "fringe": {
+          "fixed": "8.93"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "PLUM0140-001",
+      "survey_date": "2023-08-01",
+      "job": {
+        "classification": "PLUMBER/PIPEFITTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "42.00",
+        "fringe": {
+          "fixed": "15.02"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SHEE0312-002",
+      "survey_date": "2022-07-01",
+      "job": {
+        "classification": "SHEET METAL WORKER (Including HVAC Duct Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "39.26",
+        "fringe": {
+          "fixed": "11.67"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "CARPENTER (Acoustical Ceiling Installation Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.29",
+        "fringe": {
+          "fixed": "1.95"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "CARPENTER, Excludes Acoustical Ceiling Installation, Drywall Hanging, and Metal Stud Installation"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.51",
+        "fringe": {
+          "fixed": "5.18"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "CEMENT MASON/CONCRETE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.57",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "DRYWALL FINISHER/TAPER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.23",
+        "fringe": {
+          "fixed": "4.85"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "IRONWORKER, STRUCTURAL"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "20.21",
+        "fringe": {
+          "fixed": "3.22"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "LABORER: Common or General"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "14.48",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "LABORER: Irrigation"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "9.50",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "LABORER: Mason Tender - Brick"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.38",
+        "fringe": {
+          "fixed": "1.00"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "LABORER: Mason Tender - Cement/Concrete"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "14.79",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "LABORER: Pipelayer"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.57",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "OPERATOR: Backhoe/Excavator/Trackhoe"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.92",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "OPERATOR: Loader"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.34",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "PAINTER (Brush and Roller, Excluding Drywalling/Taping)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "12.00",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "ROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.62",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "SPRINKLER FITTER (Fire Sprinklers)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "24.76",
+        "fringe": {
+          "fixed": "7.83"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "TILE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.54",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "TILE SETTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.00",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "SUUT2012-019",
+      "survey_date": "2014-07-29",
+      "job": {
+        "classification": "TRUCK DRIVER: Dump Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.49",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "UT20240087",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-05-31"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "UT",
+        "county": "Utah"
+      },
+      "rate_identifier": "",
+      "survey_date": "2024-01-05",
+      "job": {
+        "classification": "WELDER"
+      }
+    }
+  ]
+}

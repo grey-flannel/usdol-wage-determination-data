@@ -1,0 +1,1207 @@
+{
+  "OH20220086.6": [
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "ASBE0008-010",
+      "survey_date": "2022-03-01",
+      "job": {
+        "classification": "ASBESTOS WORKER/HEAT & FROST INSULATOR"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.33",
+        "fringe": {
+          "fixed": "20.19"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "BROH0055-006",
+      "survey_date": "2021-06-01",
+      "job": {
+        "classification": "BRICKLAYER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.65",
+        "fringe": {
+          "fixed": "19.21"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "BROH0055-007",
+      "survey_date": "2021-06-01",
+      "job": {
+        "classification": "TILE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.06",
+        "fringe": {
+          "fixed": "9.50"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "BROH0055-007",
+      "survey_date": "2021-06-01",
+      "job": {
+        "classification": "TILE SETTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.65",
+        "fringe": {
+          "fixed": "19.21"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "CARP0200-003",
+      "survey_date": "2021-05-01",
+      "job": {
+        "classification": "CARPENTER (Soft Floor Layer and Floor Laying - Hardwood Floors Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "28.08",
+        "fringe": {
+          "fixed": "19.68"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "ELEC0038-004",
+      "survey_date": "2022-04-25",
+      "job": {
+        "classification": "ELECTRICIAN (HVAC/Temperature Controls Installation Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "40.88",
+        "fringe": {
+          "fixed": "22.75"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "ELEC0683-004",
+      "survey_date": "2021-05-31",
+      "job": {
+        "classification": "ELECTRICIAN (Low Voltage Wiring Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.50",
+        "fringe": {
+          "fixed": "21.99"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "ELEV0037-003",
+      "survey_date": "2022-01-01",
+      "job": {
+        "classification": "ELEVATOR MECHANIC (Less than 5 years)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "54.83",
+        "fringe": {
+          "fixed": "35.83",
+          "percentage": "0.06",
+          "holidays": [
+            "Memorial Day",
+            "Independence Day",
+            "New Year's Day",
+            "Day After Thanksgiving",
+            "Labor Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Thanksgiving Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "ELEV0037-003",
+      "survey_date": "2022-01-01",
+      "job": {
+        "classification": "ELEVATOR MECHANIC (More than 5 years)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "54.83",
+        "fringe": {
+          "fixed": "35.83",
+          "percentage": "0.08",
+          "holidays": [
+            "Memorial Day",
+            "Independence Day",
+            "New Year's Day",
+            "Day After Thanksgiving",
+            "Labor Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Thanksgiving Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "ENGI0018-041",
+      "survey_date": "2019-05-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Bobcat/Skid Steer/Skid Loader; Concrete Pump; Crane)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "37.02",
+        "fringe": {
+          "fixed": "15.20"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "ENGI0018-041",
+      "survey_date": "2019-05-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Bulldozer)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "37.14",
+        "fringe": {
+          "fixed": "15.20"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "ENGI0018-041",
+      "survey_date": "2019-05-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Oiler)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "29.34",
+        "fringe": {
+          "fixed": "15.20"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "ENGI0066-048",
+      "survey_date": "2017-06-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Grader/Blade)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.42",
+        "fringe": {
+          "fixed": "19.66"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "ENGI0066-048",
+      "survey_date": "2017-06-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Mechanic)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.92",
+        "fringe": {
+          "fixed": "19.66"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "IRON0172-005",
+      "survey_date": "2022-06-01",
+      "job": {
+        "classification": "IRONWORKER, REINFORCING"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "33.27",
+        "fringe": {
+          "fixed": "21.20"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "IRON0550-009",
+      "survey_date": "2022-05-01",
+      "job": {
+        "classification": "IRONWORKER, ORNAMENTAL"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.97",
+        "fringe": {
+          "fixed": "21.69"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "LABO0423-003",
+      "survey_date": "2021-05-01",
+      "job": {
+        "classification": "LABORER (Mason Tender - Brick & Cement/Concrete)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "29.04",
+        "fringe": {
+          "fixed": "11.80"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "PAIN1275-001",
+      "survey_date": "2019-05-01",
+      "job": {
+        "classification": "PAINTER (Spray)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.26",
+        "fringe": {
+          "fixed": "14.20"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "PLUM0189-005",
+      "survey_date": "2019-06-01",
+      "job": {
+        "classification": "PIPEFITTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "38.45",
+        "fringe": {
+          "fixed": "16.98"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SFOH0669-009",
+      "survey_date": "2021-04-01",
+      "job": {
+        "classification": "SPRINKLER FITTER (Fire Sprinklers)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "39.25",
+        "fringe": {
+          "fixed": "25.81"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SHEE0024-028",
+      "survey_date": "2021-06-01",
+      "job": {
+        "classification": "SHEET METAL WORKER (Excludes HVAC Duct and Unit Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.53",
+        "fringe": {
+          "fixed": "26.31"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "ABATEMENT WORKER: ASBESTOS (Removal from Ceilings, Floors, and Walls)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.74",
+        "fringe": {
+          "fixed": "9.25"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "CARPENTER (Acoustical Ceiling Installation Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "24.17",
+        "fringe": {
+          "fixed": "8.61"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "CARPENTER (Excluding Acoustical Ceiling Installation, Floor Laying - Hardwood Floors, and Soft Floor Laying)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.50",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "CEMENT MASON/CONCRETE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "26.07",
+        "fringe": {
+          "fixed": "12.34"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "DRYWALL FINISHER/TAPER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "20.44",
+        "fringe": {
+          "fixed": "4.75"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "DRYWALL HANGER AND METAL STUD INSTALLER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.15",
+        "fringe": {
+          "fixed": "3.75"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "ELECTRICIAN, Excludes Low Voltage Wiring and Installation of HVAC/Temperature Controls"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.34",
+        "fringe": {
+          "fixed": "11.24"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "GLAZIER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.60",
+        "fringe": {
+          "fixed": "11.02"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "IRONWORKER, STRUCTURAL"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "26.52",
+        "fringe": {
+          "fixed": "16.23"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "LABORER: Common or General"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.00",
+        "fringe": {
+          "fixed": "1.71"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "LABORER: Landscape & Irrigation"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.74",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "LABORER: Pipelayer"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.98",
+        "fringe": {
+          "fixed": "8.58"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "OPERATOR: Backhoe/Excavator/Trackhoe"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.26",
+        "fringe": {
+          "fixed": "9.80"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "OPERATOR: Forklift"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.79",
+        "fringe": {
+          "fixed": "12.76"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "OPERATOR: Loader"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "29.66",
+        "fringe": {
+          "fixed": "12.61"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "OPERATOR: Paver (Asphalt, Aggregate, and Concrete)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.28",
+        "fringe": {
+          "fixed": "13.29"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "OPERATOR: Roller"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "28.83",
+        "fringe": {
+          "fixed": "12.72"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "PAINTER (Brush and Roller)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.87",
+        "fringe": {
+          "fixed": "9.42"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "PLUMBER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.28",
+        "fringe": {
+          "fixed": "6.87"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "ROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.24",
+        "fringe": {
+          "fixed": "11.38"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "SHEET METAL WORKER (HVAC Duct and HVAC Unit Installation Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "26.26",
+        "fringe": {
+          "fixed": "15.77"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "SUOH2012-088",
+      "survey_date": "2014-08-29",
+      "job": {
+        "classification": "TRUCK DRIVER: Dump (All Types)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "24.32",
+        "fringe": {
+          "fixed": "11.73"
+        }
+      }
+    },
+    {
+      "decision_number": "OH20220086",
+      "modification_number": 6,
+      "publication_date": "2022-06-10",
+      "effective": {
+        "start_date": "2022-06-10",
+        "end_date": "2022-07-08"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "OH",
+        "county": "Licking"
+      },
+      "rate_identifier": "",
+      "survey_date": "2022-06-10",
+      "job": {
+        "classification": "WELDER"
+      }
+    }
+  ]
+}

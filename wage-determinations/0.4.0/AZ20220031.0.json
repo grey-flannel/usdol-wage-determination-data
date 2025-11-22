@@ -1,0 +1,1968 @@
+{
+  "AZ20220031.0": [
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "ASBE0073-002",
+      "survey_date": "2021-08-01",
+      "job": {
+        "classification": "ASBESTOS WORKER/HEAT & FROST INSULATOR"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "44.57",
+        "fringe": {
+          "fixed": "14.79"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "BOIL0627-001",
+      "survey_date": "2021-01-01",
+      "job": {
+        "classification": "BOILERMAKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "36.07",
+        "fringe": {
+          "fixed": "30.59"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "BRAZ0003-009",
+      "survey_date": "2021-07-01",
+      "job": {
+        "classification": "BRICKLAYER (Zone A: 0-60 miles from the intersection of Central Ave, and Washington St., Phoenix, AZ)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "31.68",
+        "fringe": {
+          "fixed": "8.90"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "BRAZ0003-009",
+      "survey_date": "2021-07-01",
+      "job": {
+        "classification": "BRICKLAYER (Zone B: 61-75 miles from the intersection of Central Ave, and Washington St., Phoenix, AZ)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "33.68",
+        "fringe": {
+          "fixed": "8.90"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "BRAZ0003-009",
+      "survey_date": "2021-07-01",
+      "job": {
+        "classification": "BRICKLAYER (Zone C: 75-100 miles from the intersection of Central Ave, and Washington St., Phoenix, AZ)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "34.68",
+        "fringe": {
+          "fixed": "8.90"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "BRAZ0003-009",
+      "survey_date": "2021-07-01",
+      "job": {
+        "classification": "BRICKLAYER (Zone D: 101-200 miles from the intersection of Central Ave, and Washington St., Phoenix, AZ)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.18",
+        "fringe": {
+          "fixed": "8.90"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "BRAZ0003-009",
+      "survey_date": "2021-07-01",
+      "job": {
+        "classification": "BRICKLAYER (Zone E: Over 200 miles from the intersection of Central Ave, and Washington St., Phoenix, AZ)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "38.18",
+        "fringe": {
+          "fixed": "8.90"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "CARP0408-009",
+      "survey_date": "2021-07-01",
+      "job": {
+        "classification": "CARPENTER (Excludes Acoustical Ceiling Installation, Drywall Finishing/Taping, Drywall Hanging, Form Work, and Metal Stud Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.44",
+        "fringe": {
+          "fixed": "12.73"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "CARP1327-001",
+      "survey_date": "2019-07-01",
+      "job": {
+        "classification": "CARPENTER (Drywall Hanging Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "26.24",
+        "fringe": {
+          "fixed": "8.86"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "ELEC0640-005",
+      "survey_date": "2021-07-01",
+      "job": {
+        "classification": "ELECTRICIAN (Includes Low Voltage Wiring; Excludes Installation of Alarms and Sound and Communication Systems)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.00",
+        "fringe": {
+          "fixed": "12.41"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "ENGI0428-012",
+      "survey_date": "2021-06-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Oiler)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "28.59",
+        "fringe": {
+          "fixed": "12.12"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "ENGI0428-012",
+      "survey_date": "2021-06-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Crane under 15 tons)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "31.86",
+        "fringe": {
+          "fixed": "12.12"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "ENGI0428-012",
+      "survey_date": "2021-06-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Crane,15 tons to 100 tons, Tower Crane)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.94",
+        "fringe": {
+          "fixed": "12.12"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "ENGI0428-012",
+      "survey_date": "2021-06-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Crane, 100 tons and over)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.97",
+        "fringe": {
+          "fixed": "12.12"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "IRON0075-011",
+      "survey_date": "2021-04-01",
+      "job": {
+        "classification": "IRONWORKER, STRUCTURAL AND ORNAMENTAL (Zone 1: 0-60 miles from City Hall in Phoenix or Tucson)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "28.80",
+        "fringe": {
+          "fixed": "19.35"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "IRON0075-011",
+      "survey_date": "2021-04-01",
+      "job": {
+        "classification": "IRONWORKER, STRUCTURAL AND ORNAMENTAL (Zone 2: 61-75 miles from City Hall in Phoenix or Tucson)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.80",
+        "fringe": {
+          "fixed": "19.35"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "IRON0075-011",
+      "survey_date": "2021-04-01",
+      "job": {
+        "classification": "IRONWORKER, STRUCTURAL AND ORNAMENTAL (Zone 3: 75-100 miles from City Hall in Phoenix or Tucson)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "33.80",
+        "fringe": {
+          "fixed": "19.35"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "IRON0075-011",
+      "survey_date": "2021-04-01",
+      "job": {
+        "classification": "IRONWORKER, STRUCTURAL AND ORNAMENTAL (Zone 4: 101-200 miles from City Hall in Phoenix or Tucson)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.30",
+        "fringe": {
+          "fixed": "19.35"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "LABO1184-010",
+      "survey_date": "2021-06-01",
+      "job": {
+        "classification": "LABORER (MASON TENDER-BRICK)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.63",
+        "fringe": {
+          "fixed": "6.27"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "PAIN0086-006",
+      "survey_date": "2017-04-01",
+      "job": {
+        "classification": "DRYWALL FINISHER/TAPER (ZONE A: Free Zone: A distance of 0 to 100 miles from the old Phoenix courthouse)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "20.05",
+        "fringe": {
+          "fixed": "6.68"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "PAIN0086-006",
+      "survey_date": "2017-04-01",
+      "job": {
+        "classification": "DRYWALL FINISHER/TAPER (ZONE B: A distance of 101 miles and over from the old Phoenix courthouse)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.55",
+        "fringe": {
+          "fixed": "6.68"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "PLAS0394-001",
+      "survey_date": "2019-07-01",
+      "job": {
+        "classification": "CEMENT MASON/CONCRETE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.08",
+        "fringe": {
+          "fixed": "8.57"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "PLUM0469-002",
+      "survey_date": "2021-07-01",
+      "job": {
+        "classification": "PLUMBER/PIPEFITTER (Coconino, Maricopa, and Yuma)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "41.90",
+        "fringe": {
+          "fixed": "17.40"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "PLUM0469-002",
+      "survey_date": "2021-07-01",
+      "job": {
+        "classification": "PLUMBER/PIPEFITTER (Pima)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "39.50",
+        "fringe": {
+          "fixed": "17.40"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SFAZ0669-001",
+      "survey_date": "2020-04-01",
+      "job": {
+        "classification": "SPRINKLER FITTER (Fire Sprinklers)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "34.35",
+        "fringe": {
+          "fixed": "24.52"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SHEE0359-002",
+      "survey_date": "2021-07-01",
+      "job": {
+        "classification": "SHEET METAL WORKER: (HVAC Duct Installation Only) (Zone 1)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "38.93",
+        "fringe": {
+          "fixed": "19.28"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "ACOUSTICAL CEILING MECHANIC"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.14",
+        "fringe": {
+          "fixed": "3.14"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "CARPENTER (Form Work Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.67",
+        "fringe": {
+          "fixed": "5.45"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "CARPENTER (Metal Stud Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.23",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "CAULKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.01",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "ELECTRICIAN (Alarm Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.31",
+        "fringe": {
+          "fixed": "4.68"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "ELECTRICIAN (Installation of Sound and Communication Systems)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.20",
+        "fringe": {
+          "fixed": "2.87"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "FIREPROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.00",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "GLAZIER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.67",
+        "fringe": {
+          "fixed": "1.44"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "INSTALLER - SIGN"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.16",
+        "fringe": {
+          "fixed": "3.58"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "INSULATOR - BATT"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "11.96",
+        "fringe": {
+          "fixed": "3.06"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "IRONWORKER, REINFORCING"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "14.92",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "LABORER: Asphalt Raker"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.18",
+        "fringe": {
+          "fixed": "1.30"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "LABORER: Common or General"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.80",
+        "fringe": {
+          "fixed": "2.24"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "LABORER: Concrete Saw (Hand Held/Walk Behind)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.00",
+        "fringe": {
+          "fixed": "7.37"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "LABORER: Fence Erection"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.73",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "LABORER: Landscape & Irrigation"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "11.33",
+        "fringe": {
+          "fixed": "0.43"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "LABORER: Mason Tender - Cement/Concrete"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.24",
+        "fringe": {
+          "fixed": "3.90"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "LABORER: Pipelayer"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.10",
+        "fringe": {
+          "fixed": "0.85"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "LABORER: Plaster Tender"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "12.00",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "LABORER: Power Tool Operator"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "14.85",
+        "fringe": {
+          "fixed": "4.20"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "LATHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.15",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "MASON - STONE"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.48",
+        "fringe": {
+          "fixed": "0.82"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "MILLWRIGHT"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "20.00",
+        "fringe": {
+          "fixed": "2.87"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "OPERATOR: Backhoe/Excavator/Trackhoe"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.20",
+        "fringe": {
+          "fixed": "2.47"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "OPERATOR: Bulldozer"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.12",
+        "fringe": {
+          "fixed": "6.14"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "OPERATOR: Drill Rig Caissons"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.06",
+        "fringe": {
+          "fixed": "2.39"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "OPERATOR: Drill"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.16",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "OPERATOR: Forklift"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.36",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "OPERATOR: Grader/Blade"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.00",
+        "fringe": {
+          "fixed": "7.07"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "OPERATOR: Loader (Front End)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.55",
+        "fringe": {
+          "fixed": "0.95"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "OPERATOR: Paver (Asphalt, Aggregate, and Concrete)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.09",
+        "fringe": {
+          "fixed": "3.96"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "OPERATOR: Roller"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.00",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "OPERATOR: Scraper"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.41",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "OPERATOR: Screed"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.17",
+        "fringe": {
+          "fixed": "4.42"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "OPERATOR: Trencher"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.01",
+        "fringe": {
+          "fixed": "0.58"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "PAINTER: Brush, Roller, Spray and Steel"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.53",
+        "fringe": {
+          "fixed": "2.63"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "PLASTERER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.71",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "ROOFER, Includes Waterproofing, and Installation of Metal Roofs"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.71",
+        "fringe": {
+          "fixed": "1.67"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "SHEET METAL WORKER, Excludes HVAC Duct Installation"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.85",
+        "fringe": {
+          "fixed": "2.79"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "TERRAZZO WORKER/SETTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.13",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "TILE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "12.50",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "TILE SETTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.00",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "TRUCK DRIVER: Dump Trucks"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.55",
+        "fringe": {
+          "fixed": "1.42"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "TRUCK DRIVER: Pickup Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "11.00",
+        "fringe": {
+          "fixed": "0.87"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "TRUCK DRIVER: Water Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.72",
+        "fringe": {
+          "fixed": "4.21"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "SUAZ2012-020",
+      "survey_date": "2012-05-30",
+      "job": {
+        "classification": "TRUCKDRIVER: 3 and 4 Axle"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.29",
+        "fringe": {
+          "fixed": "1.36"
+        }
+      }
+    },
+    {
+      "decision_number": "AZ20220031",
+      "modification_number": 0,
+      "publication_date": "2022-01-07",
+      "effective": {
+        "start_date": "2022-01-07",
+        "end_date": "2022-02-11"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "AZ",
+        "county": "Maricopa"
+      },
+      "rate_identifier": "",
+      "survey_date": "2022-01-07",
+      "job": {
+        "classification": "WELDER"
+      }
+    }
+  ]
+}

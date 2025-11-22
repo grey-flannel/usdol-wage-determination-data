@@ -1,0 +1,512 @@
+{
+  "VT20240025.2": [
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "ELEC0300-001",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "ELECTRICIAN"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "31.90",
+        "fringe": {
+          "fixed": "8.00",
+          "percentage": "0.092"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "ELEC0300-002",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "ELECTRICIAN (Low Voltage Wiring)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "31.90",
+        "fringe": {
+          "fixed": "8.00",
+          "percentage": "0.092"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "IRON0007-024",
+      "survey_date": "2024-03-16",
+      "job": {
+        "classification": "IRONWORKER, STRUCTURAL"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "31.37",
+        "fringe": {
+          "fixed": "25.17"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "PLUM0693-003",
+      "survey_date": "2024-05-01",
+      "job": {
+        "classification": "PLUMBER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.40",
+        "fringe": {
+          "fixed": "18.98"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "SHEE0063-005",
+      "survey_date": "2024-07-01",
+      "job": {
+        "classification": "SHEET METAL WORKER (HVAC Duct Installation Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "40.98",
+        "fringe": {
+          "fixed": "34.59"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "SUVT2011-010",
+      "survey_date": "2011-02-10",
+      "job": {
+        "classification": "BRICKLAYER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.89",
+        "fringe": {
+          "fixed": "0.78"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "SUVT2011-010",
+      "survey_date": "2011-02-10",
+      "job": {
+        "classification": "CARPENTER (Drywall Hanging Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.15",
+        "fringe": {
+          "fixed": "1.63"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "SUVT2011-010",
+      "survey_date": "2011-02-10",
+      "job": {
+        "classification": "CARPENTER, Excludes Drywall Hanging"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "20.28",
+        "fringe": {
+          "fixed": "10.49"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "SUVT2011-010",
+      "survey_date": "2011-02-10",
+      "job": {
+        "classification": "LABORER: Common or General"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.11",
+        "fringe": {
+          "fixed": "3.52"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "SUVT2011-010",
+      "survey_date": "2011-02-10",
+      "job": {
+        "classification": "LABORER: Mason Tender - Brick"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.78",
+        "fringe": {
+          "fixed": "0.48"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "SUVT2011-010",
+      "survey_date": "2011-02-10",
+      "job": {
+        "classification": "LABORER: Mason Tender - Cement/Concrete"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.50",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "SUVT2011-010",
+      "survey_date": "2011-02-10",
+      "job": {
+        "classification": "OPERATOR: Bulldozer"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.00",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "SUVT2011-010",
+      "survey_date": "2011-02-10",
+      "job": {
+        "classification": "OPERATOR: Excavator"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.00",
+        "fringe": {
+          "fixed": "0.95"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "SUVT2011-010",
+      "survey_date": "2011-02-10",
+      "job": {
+        "classification": "PAINTER: Brush Only"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.82",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "SUVT2011-010",
+      "survey_date": "2011-02-10",
+      "job": {
+        "classification": "PAINTER: Roller"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.82",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "SUVT2011-010",
+      "survey_date": "2011-02-10",
+      "job": {
+        "classification": "ROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.98",
+        "fringe": {
+          "fixed": "4.40"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "SUVT2011-010",
+      "survey_date": "2011-02-10",
+      "job": {
+        "classification": "SPRINKLER FITTER (Fire Sprinklers)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.43",
+        "fringe": {
+          "fixed": "2.30"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "SUVT2011-010",
+      "survey_date": "2011-02-10",
+      "job": {
+        "classification": "TRUCK DRIVER: Dump Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "14.00",
+        "fringe": {
+          "fixed": "0.81"
+        }
+      }
+    },
+    {
+      "decision_number": "VT20240025",
+      "modification_number": 2,
+      "publication_date": "2024-07-05",
+      "effective": {
+        "start_date": "2024-07-05",
+        "end_date": "2024-11-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VT",
+        "county": "Chittenden"
+      },
+      "rate_identifier": "",
+      "survey_date": "2024-07-05",
+      "job": {
+        "classification": "WELDER"
+      }
+    }
+  ]
+}

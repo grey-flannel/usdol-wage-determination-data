@@ -1,0 +1,559 @@
+{
+  "NM20240044.0": [
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "ASBE0076-008",
+      "survey_date": "2023-01-01",
+      "job": {
+        "classification": "ASBESTOS WORKER/HEAT & FROST INSULATOR"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.76",
+        "fringe": {
+          "fixed": "11.73"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "CARP1505-001",
+      "survey_date": "2018-06-01",
+      "job": {
+        "classification": "CARPENTER (Includes Drywall Finishing/Taping, Drywall Hanging, and Metal Stud Installation (Excludes Form Work))"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "24.08",
+        "fringe": {
+          "fixed": "10.79"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "ELEC0611-022",
+      "survey_date": "2023-01-01",
+      "job": {
+        "classification": "ELECTRICIAN"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "36.75",
+        "fringe": {
+          "fixed": "12.77"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "ELEV0131-002",
+      "survey_date": "2023-01-01",
+      "job": {
+        "classification": "ELEVATOR MECHANIC (Less than 5 years)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "48.93",
+        "fringe": {
+          "fixed": "37.335",
+          "percentage": "0.06",
+          "holidays": [
+            "Christmas Day",
+            "Thanksgiving Day",
+            "Veterans Day",
+            "Labor Day",
+            "Day After Thanksgiving",
+            "New Year's Day",
+            "Memorial Day",
+            "Independence Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "ELEV0131-002",
+      "survey_date": "2023-01-01",
+      "job": {
+        "classification": "ELEVATOR MECHANIC (More than 5 years)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "48.93",
+        "fringe": {
+          "fixed": "37.335",
+          "percentage": "0.08",
+          "holidays": [
+            "Christmas Day",
+            "Thanksgiving Day",
+            "Veterans Day",
+            "Labor Day",
+            "Day After Thanksgiving",
+            "New Year's Day",
+            "Memorial Day",
+            "Independence Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "IRON0495-002",
+      "survey_date": "2023-01-01",
+      "job": {
+        "classification": "IRONWORKER, STRUCTURAL"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "28.05",
+        "fringe": {
+          "fixed": "18.11"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "LABO0016-002",
+      "survey_date": "2018-06-01",
+      "job": {
+        "classification": "LABORER (Mason Tender - Cement/Concrete)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.25",
+        "fringe": {
+          "fixed": "6.01"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "PLAS0254-001",
+      "survey_date": "2021-03-18",
+      "job": {
+        "classification": "PLASTERER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.56",
+        "fringe": {
+          "fixed": "9.39"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "PLUM0412-014",
+      "survey_date": "2022-01-01",
+      "job": {
+        "classification": "PIPEFITTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "36.40",
+        "fringe": {
+          "fixed": "13.90"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "PLUM0412-014",
+      "survey_date": "2022-01-01",
+      "job": {
+        "classification": "PLUMBER (Includes HVAC Pipe Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "36.40",
+        "fringe": {
+          "fixed": "13.90"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "SFNM0669-001",
+      "survey_date": "2021-04-01",
+      "job": {
+        "classification": "SPRINKLER FITTER (Fire Sprinklers)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.67",
+        "fringe": {
+          "fixed": "23.21"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "SHEE0049-004",
+      "survey_date": "2023-01-01",
+      "job": {
+        "classification": "Sheet Metal Worker (Including HVAC Duct and Unit Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.44",
+        "fringe": {
+          "fixed": "18.42"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "SUNM2016-001",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "CARPENTER (Form Work Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "20.41",
+        "fringe": {
+          "fixed": "6.25"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "SUNM2016-001",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "CEMENT MASON/CONCRETE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.59",
+        "fringe": {
+          "fixed": "7.45"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "SUNM2016-001",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "GLAZIER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "20.15",
+        "fringe": {
+          "fixed": "3.48"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "SUNM2016-001",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "LABORER: Common or General"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.70",
+        "fringe": {
+          "fixed": "4.86"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "SUNM2016-001",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "OPERATOR: Backhoe/Excavator/Trackhoe"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.97",
+        "fringe": {
+          "fixed": "5.15"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "SUNM2016-001",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "PAINTER (Brush and Roller)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.51",
+        "fringe": {
+          "fixed": "2.14"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "SUNM2016-001",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "PAINTER: Spray"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.51",
+        "fringe": {
+          "fixed": "2.14"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20240044",
+      "modification_number": 0,
+      "publication_date": "2024-01-05",
+      "effective": {
+        "start_date": "2024-01-05",
+        "end_date": "2024-03-22"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Bernalillo"
+      },
+      "rate_identifier": "",
+      "survey_date": "2024-01-05",
+      "job": {
+        "classification": "WELDER"
+      }
+    }
+  ]
+}

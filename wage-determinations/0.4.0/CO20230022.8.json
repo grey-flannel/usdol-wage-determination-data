@@ -1,0 +1,829 @@
+{
+  "CO20230022.8": [
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "ASBE0028-002",
+      "survey_date": "2022-03-01",
+      "job": {
+        "classification": "ASBESTOS WORKER/HEAT & FROST INSULATOR - MECHANICAL (Duct, Pipe & Mechanical System Insulation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.98",
+        "fringe": {
+          "fixed": "15.47"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "ELEC0113-005",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "ELECTRICIAN (Includes Low Voltage Wiring)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.70",
+        "fringe": {
+          "fixed": "17.52"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "ELEV0025-001",
+      "survey_date": "2023-01-01",
+      "job": {
+        "classification": "ELEVATOR MECHANIC (Under 5 years)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "51.94",
+        "fringe": {
+          "fixed": "37.335",
+          "percentage": "0.06",
+          "holidays": [
+            "Independence Day",
+            "New Year's Day",
+            "Thanksgiving Day",
+            "Day After Thanksgiving",
+            "Labor Day",
+            "Christmas Day",
+            "Memorial Day",
+            "Veterans Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "ELEV0025-001",
+      "survey_date": "2023-01-01",
+      "job": {
+        "classification": "ELEVATOR MECHANIC (Over 5 years)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "51.94",
+        "fringe": {
+          "fixed": "37.335",
+          "percentage": "0.08",
+          "holidays": [
+            "Independence Day",
+            "New Year's Day",
+            "Thanksgiving Day",
+            "Day After Thanksgiving",
+            "Labor Day",
+            "Christmas Day",
+            "Memorial Day",
+            "Veterans Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "ENGI0009-017",
+      "survey_date": "2023-05-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Crane) (141 tons and over)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "38.63",
+        "fringe": {
+          "fixed": "14.25"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "ENGI0009-017",
+      "survey_date": "2023-05-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Crane) (50 tons and under)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "34.77",
+        "fringe": {
+          "fixed": "14.25"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "ENGI0009-017",
+      "survey_date": "2023-05-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Crane) (51 to 90 tons)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.07",
+        "fringe": {
+          "fixed": "14.25"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "ENGI0009-017",
+      "survey_date": "2023-05-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Crane) (91 to 140 tons)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "36.27",
+        "fringe": {
+          "fixed": "14.25"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "IRON0024-009",
+      "survey_date": "2023-05-01",
+      "job": {
+        "classification": "IRONWORKER, ORNAMENTAL"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.24",
+        "fringe": {
+          "fixed": "12.50"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "IRON0024-011",
+      "survey_date": "2023-05-01",
+      "job": {
+        "classification": "IRONWORKER, STRUCTURAL"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.24",
+        "fringe": {
+          "fixed": "12.50"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "PAIN0079-009",
+      "survey_date": "2022-08-01",
+      "job": {
+        "classification": "PAINTER (Spray)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.11",
+        "fringe": {
+          "fixed": "10.95"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "PLAS0577-002",
+      "survey_date": "2023-05-01",
+      "job": {
+        "classification": "CEMENT MASON/CONCRETE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.62",
+        "fringe": {
+          "fixed": "13.50"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "PLUM0058-003",
+      "survey_date": "2023-07-01",
+      "job": {
+        "classification": "PLUMBER (Excludes HVAC Duct, Pipe and Unit Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "39.40",
+        "fringe": {
+          "fixed": "16.83"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "PLUM0058-004",
+      "survey_date": "2023-07-01",
+      "job": {
+        "classification": "PIPEFITTER, Includes HVAC Pipe Installation (Excludes HVAC Duct and Unit Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "39.40",
+        "fringe": {
+          "fixed": "16.83"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SFCO0669-002",
+      "survey_date": "2023-04-01",
+      "job": {
+        "classification": "SPRINKLER FITTER (Fire Sprinklers)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "43.14",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SHEE0009-009",
+      "survey_date": "2023-07-01",
+      "job": {
+        "classification": "SHEET METAL WORKER, Includes HVAC Duct Installation (Excludes HVAC Pipe and Unit Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "38.47",
+        "fringe": {
+          "fixed": "20.83"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SUCO2013-008",
+      "survey_date": "2015-07-31",
+      "job": {
+        "classification": "BRICKLAYER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.96",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SUCO2013-008",
+      "survey_date": "2015-07-31",
+      "job": {
+        "classification": "CARPENTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.63",
+        "fringe": {
+          "fixed": "6.98"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SUCO2013-008",
+      "survey_date": "2015-07-31",
+      "job": {
+        "classification": "LABORER: Common or General"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.40",
+        "fringe": {
+          "fixed": "1.40"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SUCO2013-008",
+      "survey_date": "2015-07-31",
+      "job": {
+        "classification": "LABORER: Mason Tender - Brick"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.99",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SUCO2013-008",
+      "survey_date": "2015-07-31",
+      "job": {
+        "classification": "LABORER: Mason Tender - Cement/Concrete"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.00",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SUCO2013-008",
+      "survey_date": "2015-07-31",
+      "job": {
+        "classification": "LABORER: Pipelayer"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.96",
+        "fringe": {
+          "fixed": "3.68"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SUCO2013-008",
+      "survey_date": "2015-07-31",
+      "job": {
+        "classification": "OPERATOR: Backhoe/Excavator/Trackhoe"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "20.26",
+        "fringe": {
+          "fixed": "8.62"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SUCO2013-008",
+      "survey_date": "2015-07-31",
+      "job": {
+        "classification": "OPERATOR: Bobcat/Skid Steer/Skid Loader"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.58",
+        "fringe": {
+          "fixed": "2.42"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SUCO2013-008",
+      "survey_date": "2015-07-31",
+      "job": {
+        "classification": "OPERATOR: Grader/Blade"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.50",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SUCO2013-008",
+      "survey_date": "2015-07-31",
+      "job": {
+        "classification": "PAINTER (Brush and Roller)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.20",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SUCO2013-008",
+      "survey_date": "2015-07-31",
+      "job": {
+        "classification": "ROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.71",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SUCO2013-008",
+      "survey_date": "2015-07-31",
+      "job": {
+        "classification": "SHEET METAL WORKER (HVAC Unit Installation Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "24.00",
+        "fringe": {
+          "fixed": "2.18"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "SUCO2013-008",
+      "survey_date": "2015-07-31",
+      "job": {
+        "classification": "TRUCK DRIVER: Dump Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.34",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "CO20230022",
+      "modification_number": 8,
+      "publication_date": "2023-08-25",
+      "effective": {
+        "start_date": "2023-08-25",
+        "end_date": "2023-12-01"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "CO",
+        "county": "El Paso"
+      },
+      "rate_identifier": "",
+      "survey_date": "2023-08-25",
+      "job": {
+        "classification": "WELDER"
+      }
+    }
+  ]
+}
