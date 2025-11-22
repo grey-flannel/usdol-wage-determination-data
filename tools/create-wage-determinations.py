@@ -30,20 +30,41 @@ def split_text_list(text):
 
 
 @cachier.cachier()
-def get_wage_determination_record(decision_number, modification_number):
-    print(f'Fetching wage determination record {decision_number} modification {modification_number}')
+def get_wage_determination_record_from_sam(decision_number, modification_number):
+    state = decision_number[0:2]
     api_url = f'https://sam.gov/api/prod/wdol/v1/wd/{decision_number}/{modification_number}'
+    print(f'Fetching {decision_number} modification {modification_number} from {api_url}')
     response = http_client.get(api_url)
     try:
         record = response.json()
-        decision_number = record['fullReferenceNumber'].upper()
-        modification_number = record['revisionNumber']
         active = record.get('active', False)
-        state = decision_number[0:2]
         document = record['document']
         return (decision_number, modification_number, active, state, document)
     except Exception:
-        return {}
+        return None
+
+
+def get_wage_determination_record_from_document(decision_number, modification_number):
+    state = decision_number[0:2]
+    document_filename = f'data/documents/{state}/{decision_number}.{modification_number}.txt'
+    print(f'Fetching {decision_number} modification {modification_number} from {document_filename}')
+    try:
+        with open(document_filename) as document_file:
+            active = False  # This is an assumption but mostly likely all local doc records are inactive
+            document = document_file.read()
+        return (decision_number, modification_number, active, state, document)
+    except Exception:
+        return None
+
+
+def get_wage_determination_record(decision_number, modification_number):
+    sam_record = get_wage_determination_record_from_sam(decision_number, modification_number)
+    if sam_record:
+        return sam_record
+    file_record = get_wage_determination_record_from_document(decision_number, modification_number)
+    if file_record:
+        return file_record
+    return {}
 
 
 def get_wage_determination_records(decision_number):
@@ -110,14 +131,22 @@ def num_rate_rows(document):
 def num_experience_splits(state, document):
     if state == 'AZ' and 'AZ20220031' in document:
         return 7
+    elif state == 'CO' and 'CO20230022' in document:
+        return 1
     elif state == 'GA' and 'GA20220050' in document:
         return 2
     elif state == 'NH' and 'NH20240021' in document:
         return 1
+    elif state == 'NM' and 'NM20240044' in document:
+        return 1
     elif state == 'OH' and 'OH20220086' in document:
         return 1
-    elif state == 'TX':
-        return len(re.findall(r'Footnote:|FOOTNOTE:|Footnotes:|FOOTNOTES:', document))
+    elif state == 'PA' and 'PA20240101' in document:
+        return 1
+    elif state == 'TX' and 'TX20240271' in document:
+        return 1
+    elif state == 'TX' and 'TX20240275' in document:
+        return 1
     elif state == 'UT' and 'UT20240087' in document:
         return 1
     else:
@@ -209,6 +238,28 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
             zone_b_note = 'ZONE B: A distance of 101 miles and over from the old Phoenix courthouse'
             job['classification'] = job['classification'].replace('ZONE B', zone_b_note)
         job_wages.append((rate_identifier, survey_date, job, wage))
+    if state == 'CO' and job['classification'].startswith('ELEVATOR MECHANIC'):
+        modifications = [
+            (' (Under 5 years)', '0.06'),
+            (' (Over 5 years)', '0.08'),
+        ]
+        job_wages = []
+        for classification_suffix, fringe_percentage in modifications:
+            modified_job = copy.deepcopy(job)
+            modified_wage = copy.deepcopy(wage)
+            modified_job['classification'] += classification_suffix
+            modified_wage['fringe']['percentage'] = fringe_percentage
+            modified_wage['fringe']['holidays'] = {
+                'New Year\'s Day',
+                'Memorial Day',
+                'Independence Day',
+                'Labor Day',
+                'Veterans Day',
+                'Thanksgiving Day',
+                'Day After Thanksgiving',
+                'Christmas Day',
+            }
+            job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
     if state == 'GA' and rate_identifier == 'SHEE0085-004':
         message = 'Work on swinging stages, boatswains chairs or scaffolds, booms, or scissors lifts over 50 ft. high'
         modifications = [
@@ -234,6 +285,28 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
             modified_job['classification'] += classification_suffix
             modified_wage['fringe']['percentage'] = fringe_percentage
             job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
+    if state == 'NM' and job['classification'].startswith('ELEVATOR MECHANIC'):
+        modifications = [
+            (' (Less than 5 years)', '0.06'),
+            (' (More than 5 years)', '0.08'),
+        ]
+        job_wages = []
+        for classification_suffix, fringe_percentage in modifications:
+            modified_job = copy.deepcopy(job)
+            modified_wage = copy.deepcopy(wage)
+            modified_job['classification'] += classification_suffix
+            modified_wage['fringe']['percentage'] = fringe_percentage
+            modified_wage['fringe']['holidays'] = {
+                'New Year\'s Day',
+                'Memorial Day',
+                'Independence Day',
+                'Labor Day',
+                'Veterans Day',
+                'Thanksgiving Day',
+                'Day After Thanksgiving',
+                'Christmas Day',
+            }
+            job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
     if state == 'OH' and job['classification'].startswith('ELEVATOR MECHANIC'):
         modifications = [
             (' (Less than 5 years)', '0.06'),
@@ -245,6 +318,38 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
             modified_wage = copy.deepcopy(wage)
             modified_job['classification'] += classification_suffix
             modified_wage['fringe']['percentage'] = fringe_percentage
+            modified_wage['fringe']['holidays'] = {
+                'New Year\'s Day',
+                'Memorial Day',
+                'Independence Day',
+                'Labor Day',
+                'Veterans Day',
+                'Thanksgiving Day',
+                'Day After Thanksgiving',
+                'Christmas Day',
+            }
+            job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
+    if state == 'PA' and job['classification'].startswith('ELEVATOR MECHANIC'):
+        modifications = [
+            (' (6 months to 5 years)', '0.06'),
+            (' (5 years or more)', '0.08'),
+        ]
+        job_wages = []
+        for classification_suffix, fringe_percentage in modifications:
+            modified_job = copy.deepcopy(job)
+            modified_wage = copy.deepcopy(wage)
+            modified_job['classification'] += classification_suffix
+            modified_wage['fringe']['percentage'] = fringe_percentage
+            modified_wage['fringe']['holidays'] = {
+                'New Year\'s Day',
+                'Memorial Day',
+                'Independence Day',
+                'Labor Day',
+                'Veterans Day',
+                'Thanksgiving Day',
+                'Day After Thanksgiving',
+                'Christmas Day',
+            }
             job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
     if state == 'TX' and job['classification'].startswith('ELEVATOR MECHANIC'):
         modifications = [
@@ -257,6 +362,16 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
             modified_wage = copy.deepcopy(wage)
             modified_job['classification'] += classification_suffix
             modified_wage['fringe']['percentage'] = fringe_percentage
+            modified_wage['fringe']['holidays'] = {
+                'New Year\'s Day',
+                'Memorial Day',
+                'Independence Day',
+                'Labor Day',
+                'Veterans Day',
+                'Thanksgiving Day',
+                'Day After Thanksgiving',
+                'Christmas Day',
+            }
             job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
     if state == 'UT' and job['classification'].startswith('ELEVATOR MECHANIC'):
         modifications = [
@@ -269,6 +384,16 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
             modified_wage = copy.deepcopy(wage)
             modified_job['classification'] += classification_suffix
             modified_wage['fringe']['percentage'] = fringe_percentage
+            modified_wage['fringe']['holidays'] = {
+                'New Year\'s Day',
+                'Memorial Day',
+                'Independence Day',
+                'Labor Day',
+                'Veterans Day',
+                'Thanksgiving Day',
+                'Day After Thanksgiving',
+                'Christmas Day',
+            }
             job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
     return job_wages
 
