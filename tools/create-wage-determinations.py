@@ -135,7 +135,9 @@ def num_experience_splits(state, document):
         return 1
     elif state == 'GA' and 'GA20220050' in document:
         return 2
-    elif state == 'NH' and 'NH20240021' in document:
+    elif state == 'MO' and 'MO20220050' in document:
+        return 1
+    elif state == 'NH' and 'NH20200021' in document:
         return 1
     elif state == 'NM' and 'NM20240044' in document:
         return 1
@@ -273,6 +275,40 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
             modified_job['classification'] += classification_suffix
             modified_wage['rate'] = str(decimal.Decimal(modified_wage['rate']) + rate_increase)
             job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
+    if state == 'MO' and job['classification'].startswith('ELEVATOR MECHANIC'):
+        modifications = [
+            (' (6 months to 5 years)', '0.06'),
+            (' (5 years or more)', '0.08'),
+        ]
+        job_wages = []
+        for classification_suffix, fringe_percentage in modifications:
+            modified_job = copy.deepcopy(job)
+            modified_wage = copy.deepcopy(wage)
+            modified_job['classification'] += classification_suffix
+            modified_wage['fringe']['percentage'] = fringe_percentage
+            modified_wage['fringe']['holidays'] = {
+                'New Year\'s Day',
+                'Memorial Day',
+                'Independence Day',
+                'Labor Day',
+                'Veterans Day',
+                'Thanksgiving Day',
+                'Day After Thanksgiving',
+                'Christmas Day',
+            }
+            job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
+    if state == 'MO' and job['classification'].startswith('TRUCK DRIVER'):
+        job_wages = []
+        modified_wage = copy.deepcopy(wage)
+        modified_wage['fringe']['holidays'] = {
+            'New Year\'s Day',
+            'Memorial Day',
+            'Independence Day',
+            'Labor Day',
+            'Thanksgiving Day',
+            'Christmas Day',
+        }
+        job_wages.append((rate_identifier, survey_date, job, modified_wage))
     if state == 'NH' and job['classification'].startswith('ELEVATOR MECHANIC'):
         modifications = [
             (' (6 months to 5 years)', '0.06'),
@@ -284,6 +320,16 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
             modified_wage = copy.deepcopy(wage)
             modified_job['classification'] += classification_suffix
             modified_wage['fringe']['percentage'] = fringe_percentage
+            modified_wage['fringe']['holidays'] = {
+                'New Year\'s Day',
+                'Memorial Day',
+                'Independence Day',
+                'Labor Day',
+                'Veterans Day',
+                'Thanksgiving Day',
+                'Day After Thanksgiving',
+                'Christmas Day',
+            }
             job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
     if state == 'NM' and job['classification'].startswith('ELEVATOR MECHANIC'):
         modifications = [
@@ -416,6 +462,8 @@ def get_new_job_wages(state, rate_identifier, survey_date, job, wage_group):
         fringe_string = wage_items[2]
     else:
         raise ValueError
+    if fringe_string.startswith('a'):
+        fringe_string = f'+{fringe_string}'
     footnotes = re.findall(r'\+[a-z]', fringe_string)
     fringe_string = re.sub(r'\+[a-z]', '', fringe_string)
     if '%+' in fringe_string:
@@ -426,7 +474,7 @@ def get_new_job_wages(state, rate_identifier, survey_date, job, wage_group):
         percentage = float(fringe_string[:-1]) / 100.0
         fringe = {'percentage': f'{percentage:0.03f}'}
     else:
-        fixed = fringe_string
+        fixed = fringe_string if fringe_string else '0.0'
         fringe = {'fixed': fixed}
     wage = {'rate': rate, 'fringe': fringe}
     return apply_special_case_modifications(state, rate_identifier, survey_date, job, wage, footnotes)

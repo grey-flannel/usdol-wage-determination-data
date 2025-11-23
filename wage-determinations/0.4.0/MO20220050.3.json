@@ -1,0 +1,918 @@
+{
+  "MO20220050.3": [
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "ASBE0001-005",
+      "survey_date": "2020-10-02",
+      "job": {
+        "classification": "ASBESTOS WORKER/HEAT & FROST INSULATOR"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "40.44",
+        "fringe": {
+          "fixed": "25.14"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "BOIL0027-001",
+      "survey_date": "2021-01-01",
+      "job": {
+        "classification": "BOILERMAKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "38.37",
+        "fringe": {
+          "fixed": "33.66"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "BRMO0001-007",
+      "survey_date": "2020-06-03",
+      "job": {
+        "classification": "BRICKLAYER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "37.45",
+        "fringe": {
+          "fixed": "22.21"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "BRMO0018-002",
+      "survey_date": "2020-07-01",
+      "job": {
+        "classification": "TILE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "28.51",
+        "fringe": {
+          "fixed": "16.74"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "BRMO0018-002",
+      "survey_date": "2020-07-01",
+      "job": {
+        "classification": "TILE SETTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.66",
+        "fringe": {
+          "fixed": "17.96"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "CARP0002-009",
+      "survey_date": "2021-05-01",
+      "job": {
+        "classification": "CARPENTER (Including Drywall Hanging & Form Work)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "41.36",
+        "fringe": {
+          "fixed": "18.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "CARP1310-001",
+      "survey_date": "2021-05-01",
+      "job": {
+        "classification": "CARPENTER (Floor Laying-Carpet and Vinyl Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "36.08",
+        "fringe": {
+          "fixed": "18.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "ELEC0001-001",
+      "survey_date": "2020-05-31",
+      "job": {
+        "classification": "ELECTRICIAN (Including Low Voltage Wiring Installer; Alarm, Computer & Telephone Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "40.61",
+        "fringe": {
+          "fixed": "27.06"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "ELEV0003-001",
+      "survey_date": "2022-01-01",
+      "job": {
+        "classification": "ELEVATOR MECHANIC (6 months to 5 years)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "55.29",
+        "fringe": {
+          "fixed": "36.885",
+          "percentage": "0.06",
+          "holidays": [
+            "Memorial Day",
+            "Thanksgiving Day",
+            "Christmas Day",
+            "Day After Thanksgiving",
+            "New Year's Day",
+            "Veterans Day",
+            "Independence Day",
+            "Labor Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "ELEV0003-001",
+      "survey_date": "2022-01-01",
+      "job": {
+        "classification": "ELEVATOR MECHANIC (5 years or more)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "55.29",
+        "fringe": {
+          "fixed": "36.885",
+          "percentage": "0.08",
+          "holidays": [
+            "Memorial Day",
+            "Thanksgiving Day",
+            "Christmas Day",
+            "Day After Thanksgiving",
+            "New Year's Day",
+            "Veterans Day",
+            "Independence Day",
+            "Labor Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "ENGI0513-003",
+      "survey_date": "2021-05-03",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Backhoe/Excavator)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "37.11",
+        "fringe": {
+          "fixed": "28.36"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "ENGI0513-003",
+      "survey_date": "2021-05-03",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Bobcat/Skid Loader)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "37.11",
+        "fringe": {
+          "fixed": "28.36"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "ENGI0513-003",
+      "survey_date": "2021-05-03",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Crane)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "37.11",
+        "fringe": {
+          "fixed": "28.36"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "ENGI0513-003",
+      "survey_date": "2021-05-03",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Forklift)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "37.11",
+        "fringe": {
+          "fixed": "28.36"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "ENGI0513-003",
+      "survey_date": "2021-05-03",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Grader/Blade)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "37.11",
+        "fringe": {
+          "fixed": "28.36"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "ENGI0513-003",
+      "survey_date": "2021-05-03",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Loader)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "37.11",
+        "fringe": {
+          "fixed": "28.36"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "ENGI0513-003",
+      "survey_date": "2021-05-03",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Paver)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "37.11",
+        "fringe": {
+          "fixed": "28.36"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "ENGI0513-003",
+      "survey_date": "2021-05-03",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Roller)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "37.11",
+        "fringe": {
+          "fixed": "28.36"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "IRON0396-001",
+      "survey_date": "2021-08-04",
+      "job": {
+        "classification": "IRONWORKER, ORNAMENTAL, REINFORCING, AND STRUCTURAL"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "36.71",
+        "fringe": {
+          "fixed": "28.96"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "LABO0660-001",
+      "survey_date": "2021-03-02",
+      "job": {
+        "classification": "LABORER (Common or General; Asphalt Shoveler, Brick & Cement/Concrete Mason Tender; Pipelayer)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.16",
+        "fringe": {
+          "fixed": "14.97"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "PAIN0002-001",
+      "survey_date": "2017-09-01",
+      "job": {
+        "classification": "PAINTER (Brush & Roller)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.34",
+        "fringe": {
+          "fixed": "15.32"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "PAIN0002-001",
+      "survey_date": "2017-09-01",
+      "job": {
+        "classification": "PAINTER (Drywall Finishing/Taping)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.34",
+        "fringe": {
+          "fixed": "15.32"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "PAIN0513-006",
+      "survey_date": "2020-11-01",
+      "job": {
+        "classification": "GLAZIER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "40.00",
+        "fringe": {
+          "fixed": "24.25"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "PLAS0527-002",
+      "survey_date": "2021-04-01",
+      "job": {
+        "classification": "CEMENT MASON/CONCRETE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.96",
+        "fringe": {
+          "fixed": "19.58"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "PLUM0562-005",
+      "survey_date": "2021-07-01",
+      "job": {
+        "classification": "PIPEFITTER, Includes HVAC Pipe Installation"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "45.10",
+        "fringe": {
+          "fixed": "27.85"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "PLUM0562-005",
+      "survey_date": "2021-07-01",
+      "job": {
+        "classification": "PLUMBER, Excludes HVAC Pipe Installation"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "45.10",
+        "fringe": {
+          "fixed": "27.85"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "ROOF0002-001",
+      "survey_date": "2020-03-01",
+      "job": {
+        "classification": "ROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "34.00",
+        "fringe": {
+          "fixed": "18.87"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "SFMO0268-002",
+      "survey_date": "2021-09-01",
+      "job": {
+        "classification": "SPRINKLER FITTER (Fire Sprinklers)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "47.53",
+        "fringe": {
+          "fixed": "26.05"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "SHEE0036-001",
+      "survey_date": "2021-08-01",
+      "job": {
+        "classification": "SHEET METAL WORKER, Includes HVAC Duct and Unit Installation"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "45.48",
+        "fringe": {
+          "fixed": "24.28"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "TEAM0682-003",
+      "survey_date": "2021-04-01",
+      "job": {
+        "classification": "TRUCK DRIVER, Includes Dump Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.90",
+        "fringe": {
+          "fixed": "0.0",
+          "holidays": [
+            "Memorial Day",
+            "Thanksgiving Day",
+            "Christmas Day",
+            "New Year's Day",
+            "Independence Day",
+            "Labor Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "SUMO2010-049",
+      "survey_date": "2010-06-14",
+      "job": {
+        "classification": "OPERATOR: Hoist"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "26.02",
+        "fringe": {
+          "fixed": "13.01"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "SUMO2010-049",
+      "survey_date": "2010-06-14",
+      "job": {
+        "classification": "PAINTER: Spray"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.78",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "MO20220050",
+      "modification_number": 3,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-03-18"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MO",
+        "county": "St Charles"
+      },
+      "rate_identifier": "",
+      "survey_date": "2022-02-25",
+      "job": {
+        "classification": "WELDER"
+      }
+    }
+  ]
+}

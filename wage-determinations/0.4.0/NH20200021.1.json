@@ -1,0 +1,748 @@
+{
+  "NH20200021.1": [
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "ASBE0006-014",
+      "survey_date": "2019-09-01",
+      "job": {
+        "classification": "ASBESTOS WORKER/HEAT & FROST INSULATOR"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "38.75",
+        "fringe": {
+          "fixed": "29.75"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "BOIL0029-003",
+      "survey_date": "2017-01-01",
+      "job": {
+        "classification": "BOILERMAKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "42.42",
+        "fringe": {
+          "fixed": "24.92"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "BRNH0003-001",
+      "survey_date": "2018-05-01",
+      "job": {
+        "classification": "BRICKLAYER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.36",
+        "fringe": {
+          "fixed": "25.20"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "ELEC0490-006",
+      "survey_date": "2019-12-11",
+      "job": {
+        "classification": "ELECTRICIAN (Includes Low Voltage Wiring and Alarm Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.13",
+        "fringe": {
+          "fixed": "20.12"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "ELEV0004-007",
+      "survey_date": "2020-01-01",
+      "job": {
+        "classification": "ELEVATOR MECHANIC (6 months to 5 years)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "61.42",
+        "fringe": {
+          "fixed": "34.77",
+          "percentage": "0.06",
+          "holidays": [
+            "Day After Thanksgiving",
+            "Thanksgiving Day",
+            "Veterans Day",
+            "Labor Day",
+            "Memorial Day",
+            "Independence Day",
+            "New Year's Day",
+            "Christmas Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "ELEV0004-007",
+      "survey_date": "2020-01-01",
+      "job": {
+        "classification": "ELEVATOR MECHANIC (5 years or more)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "61.42",
+        "fringe": {
+          "fixed": "34.77",
+          "percentage": "0.08",
+          "holidays": [
+            "Day After Thanksgiving",
+            "Thanksgiving Day",
+            "Veterans Day",
+            "Labor Day",
+            "Memorial Day",
+            "Independence Day",
+            "New Year's Day",
+            "Christmas Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "CARPENTER, Includes Acoustical Ceiling Installation, Drywall Hanging, Form Work, and Metal Stud Installation"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "24.43",
+        "fringe": {
+          "fixed": "6.49"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "CEMENT MASON/CONCRETE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.70",
+        "fringe": {
+          "fixed": "2.61"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "DRYWALL FINISHER/TAPER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "28.67",
+        "fringe": {
+          "fixed": "11.69"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "GLAZIER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.74",
+        "fringe": {
+          "fixed": "3.74"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "IRONWORKER, REINFORCING"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.60",
+        "fringe": {
+          "fixed": "19.89"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "IRONWORKER, STRUCTURAL"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "24.05",
+        "fringe": {
+          "fixed": "12.75"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "LABORER: Common or General"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.46",
+        "fringe": {
+          "fixed": "9.86"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "LABORER: Mason Tender - Brick"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.01",
+        "fringe": {
+          "fixed": "4.43"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "OPERATOR: Backhoe/Excavator/Trackhoe"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "24.08",
+        "fringe": {
+          "fixed": "4.75"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "OPERATOR: Crane"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.42",
+        "fringe": {
+          "fixed": "3.83"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "OPERATOR: Loader"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.54",
+        "fringe": {
+          "fixed": "2.29"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "OPERATOR: Roller"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.56",
+        "fringe": {
+          "fixed": "3.28"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "PAINTER (Brush and Roller)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "20.00",
+        "fringe": {
+          "fixed": "3.28"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "PAINTER: Spray"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.99",
+        "fringe": {
+          "fixed": "3.28"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "PIPEFITTER, Includes HVAC Pipe Installation"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.17",
+        "fringe": {
+          "fixed": "11.87"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "PLUMBER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.97",
+        "fringe": {
+          "fixed": "9.68"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "ROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.55",
+        "fringe": {
+          "fixed": "3.25"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "SHEET METAL WORKER, Includes HVAC Duct Installation"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "33.83",
+        "fringe": {
+          "fixed": "10.09"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "SPRINKLER FITTER (Fire Sprinklers)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "31.29",
+        "fringe": {
+          "fixed": "9.78"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "SUNH2015-007",
+      "survey_date": "2017-06-16",
+      "job": {
+        "classification": "WATERPROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "31.22",
+        "fringe": {
+          "fixed": "3.70"
+        }
+      }
+    },
+    {
+      "decision_number": "NH20200021",
+      "modification_number": 1,
+      "publication_date": "2020-01-24",
+      "effective": {
+        "start_date": "2020-01-24",
+        "end_date": "2020-02-14"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NH",
+        "county": "Hillsborough"
+      },
+      "rate_identifier": "",
+      "survey_date": "2020-01-24",
+      "job": {
+        "classification": "WELDER"
+      }
+    }
+  ]
+}
