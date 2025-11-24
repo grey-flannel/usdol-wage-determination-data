@@ -1,0 +1,1104 @@
+{
+  "TX20220249.1": [
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "ASBE0021-011",
+      "survey_date": "2017-08-01",
+      "job": {
+        "classification": "ASBESTOS WORKER/HEAT & FROST INSULATOR (Duct, Pipe and Mechanical System Insulation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.87",
+        "fringe": {
+          "fixed": "7.23"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "BOIL0074-003",
+      "survey_date": "2021-01-01",
+      "job": {
+        "classification": "BOILERMAKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "29.47",
+        "fringe": {
+          "fixed": "24.10"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "ENGI0178-005",
+      "survey_date": "2020-06-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Tower Crane)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.85",
+        "fringe": {
+          "fixed": "13.10"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "ENGI0178-005",
+      "survey_date": "2020-06-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Cranes with Pile Driving or Caisson Attachment and Hydraulic Crane 60 tons and above)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "28.75",
+        "fringe": {
+          "fixed": "10.60"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "ENGI0178-005",
+      "survey_date": "2020-06-01",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR (Hydraulic cranes 59 Tons and under)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.35",
+        "fringe": {
+          "fixed": "13.10"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "IRON0263-004",
+      "survey_date": "2020-06-01",
+      "job": {
+        "classification": "IRONWORKER, ORNAMENTAL"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.14",
+        "fringe": {
+          "fixed": "7.43"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "PLUM0100-009",
+      "survey_date": "2021-05-01",
+      "job": {
+        "classification": "PIPEFITTER (Excludes HVAC Pipe Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "33.88",
+        "fringe": {
+          "fixed": "13.07"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "PLUM0100-009",
+      "survey_date": "2021-05-01",
+      "job": {
+        "classification": "PLUMBER (HVAC Pipe Installation Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "33.88",
+        "fringe": {
+          "fixed": "13.07"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "BRICKLAYER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.95",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "CARPENTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.81",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "CEMENT MASON/CONCRETE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.27",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "ELECTRICIAN"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "20.59",
+        "fringe": {
+          "fixed": "3.36"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "IRONWORKER, REINFORCING"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "12.33",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "IRONWORKER, STRUCTURAL"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.83",
+        "fringe": {
+          "fixed": "4.58"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "LABORER: Common or General"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "10.00",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "LABORER: Mason Tender - Brick"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "10.95",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "LABORER: Mason Tender - Cement/Concrete"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "10.76",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "LABORER: Pipelayer"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.00",
+        "fringe": {
+          "fixed": "0.35"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "LABORER: Roof Tearoff"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "11.28",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "OPERATOR: Backhoe/Excavator/Trackhoe"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "12.89",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "OPERATOR: Bobcat/Skid Steer/Skid Loader"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.93",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "OPERATOR: Bulldozer"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.29",
+        "fringe": {
+          "fixed": "1.31"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "OPERATOR: Drill"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.60",
+        "fringe": {
+          "fixed": "0.50"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "OPERATOR: Forklift"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.63",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "OPERATOR: Grader/Blade"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "12.95",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "OPERATOR: Loader"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.39",
+        "fringe": {
+          "fixed": "0.90"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "OPERATOR: Mechanic"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.52",
+        "fringe": {
+          "fixed": "3.33"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "OPERATOR: Paver (Asphalt, Aggregate, and Concrete)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.44",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "OPERATOR: Roller"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.04",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "PAINTER (Brush, Roller, and Spray)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.46",
+        "fringe": {
+          "fixed": "2.49"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "PLUMBER, Excludes HVAC Pipe Installation"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.27",
+        "fringe": {
+          "fixed": "4.81"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "ROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.53",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "SHEET METAL WORKER (HVAC Duct Installation Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.04",
+        "fringe": {
+          "fixed": "5.28"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "SHEET METAL WORKER, Excludes HVAC Duct Installation"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.31",
+        "fringe": {
+          "fixed": "4.66"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "TILE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "11.22",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "TILE SETTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "14.25",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "TRUCK DRIVER: Dump Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "12.39",
+        "fringe": {
+          "fixed": "1.18"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "TRUCK DRIVER: Flatbed Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.65",
+        "fringe": {
+          "fixed": "8.57"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "TRUCK DRIVER: Semi-Trailer Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "12.50",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "SUTX2014-025",
+      "survey_date": "2014-07-21",
+      "job": {
+        "classification": "TRUCK DRIVER: Water Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "12.00",
+        "fringe": {
+          "fixed": "4.11"
+        }
+      }
+    },
+    {
+      "decision_number": "TX20220249",
+      "modification_number": 1,
+      "publication_date": "2022-02-25",
+      "effective": {
+        "start_date": "2022-02-25",
+        "end_date": "2022-04-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "TX",
+        "county": "Grayson"
+      },
+      "rate_identifier": "",
+      "survey_date": "2022-02-25",
+      "job": {
+        "classification": "WELDER"
+      }
+    }
+  ]
+}

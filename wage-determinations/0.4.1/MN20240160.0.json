@@ -1,0 +1,1644 @@
+{
+  "MN20240160.0": [
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "ARTICULATED HAULER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "46.99",
+        "fringe": {
+          "fixed": "25.20"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "ASBESTOS ABATEMENT WORKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "39.86",
+        "fringe": {
+          "fixed": "24.11"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "BLASTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.11",
+        "fringe": {
+          "fixed": "19.64"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "BOILERMAKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "46.00",
+        "fringe": {
+          "fixed": "31.93"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "BOOM TRUCK"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "46.51",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "BRICKLAYER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "48.51",
+        "fringe": {
+          "fixed": "25.76"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "CARPENTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "46.49",
+        "fringe": {
+          "fixed": "27.89"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "CARPET LAYER (LINOLEUM)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "46.20",
+        "fringe": {
+          "fixed": "25.53"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "CEMENT MASON"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "49.21",
+        "fringe": {
+          "fixed": "23.47"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "Drywall Taper"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "42.86",
+        "fringe": {
+          "fixed": "28.08"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "ELECTRICIAN"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "52.00",
+        "fringe": {
+          "fixed": "32.80"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "ELEVATOR CONSTRUCTORS"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "59.95",
+        "fringe": {
+          "fixed": "44.53"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "FLAG PERSON"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "43.39",
+        "fringe": {
+          "fixed": "24.24"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "GLAZIER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "49.73",
+        "fringe": {
+          "fixed": "25.50"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "HEATING AND FROST INSULATORS"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "49.04",
+        "fringe": {
+          "fixed": "31.70"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "IRONWORKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "46.00",
+        "fringe": {
+          "fixed": "34.11"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "LABORER: Common or General (GENERAL LABOR WORK)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "43.39",
+        "fringe": {
+          "fixed": "24.24"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "LABORER: Landscape (GARDENER, SOD LAYER AND NURSERY OPERATOR)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.04",
+        "fringe": {
+          "fixed": "21.16"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "LABORER: Skilled (ASSISTING SKILLED CRAFT JOURNEYMAN)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "43.39",
+        "fringe": {
+          "fixed": "24.24"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "LANDSCAPING EQUIPMENT (INCLUDES HYDRO SEEDER OR MULCHER, SOD ROLLER, FARM TRACTOR WITH ATTACHMENT SPECIFICLLY SEEDING, SODDING, OR PLANT, AND TWO-FRAMED FORKLIFT (EXCLUDING FRONT, POSIT-TRACK, AND SKID STEER LOADERS), NO EARTHWORK OR GRADING FOR ELEVATIONS)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.04",
+        "fringe": {
+          "fixed": "21.16"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "LATHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "47.95",
+        "fringe": {
+          "fixed": "25.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "MILLWRIGHT"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "41.70",
+        "fringe": {
+          "fixed": "31.81"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "OFF-ROAD TRUCK"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "41.73",
+        "fringe": {
+          "fixed": "22.85"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "PAINTER (INCLUDING HAND BRUSHED, HAND SPRAYED, AND THE TAPING OF PAVEMENT MARKINGS)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "44.70",
+        "fringe": {
+          "fixed": "26.49"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "PAVEMENT MARKING OR MARKING REMOVAL EQUIPMENT ((ONE OR TWO PERSON OPERATORS); SELF-PROPELLED TRUCK OR TRAILER MOUNTED UNITS.)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "37.05",
+        "fringe": {
+          "fixed": "19.39"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "Piledriver (INCLUDING VIBRATORY DRIVER OR EXTRACTOR FOR PILING AND SHEETING OPERATIONS)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "47.03",
+        "fringe": {
+          "fixed": "27.91"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "PIPEFITTER/STEAMFITTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "55.68",
+        "fringe": {
+          "fixed": "34.76"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "PIPELAYER (WATER, SEWER AND GAS)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "45.13",
+        "fringe": {
+          "fixed": "24.24"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "PLASTERER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "48.78",
+        "fringe": {
+          "fixed": "23.99"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "PLUMBER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "52.98",
+        "fringe": {
+          "fixed": "30.72"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Commercial Group 1)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "51.03",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Commercial Group 2)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "50.64",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Commercial Group 3)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "49.05",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Commercial Group 4)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "48.68",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Commercial Group 5)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "46.51",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Commercial Group 6)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "44.82",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Commercial Group 7)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "43.55",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Commercial Group 8)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "41.28",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Highway/Heavy Group 2)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "45.61",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Highway/Heavy Group 3)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "45.01",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Highway/Heavy Group 4)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "44.67",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Highway/Heavy Group 5)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "41.36",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "POWER EQUIPMENT OPERATOR: (Highway/Heavy Group 6)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "40.02",
+        "fringe": {
+          "fixed": "26.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "ROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "46.65",
+        "fringe": {
+          "fixed": "21.89"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "SHEET METAL WORKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "50.46",
+        "fringe": {
+          "fixed": "33.32"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "SIGN ERECTOR"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "34.12",
+        "fringe": {
+          "fixed": "19.40"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "SPRINKLER FITTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "51.26",
+        "fringe": {
+          "fixed": "34.10"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "Survey Field Technician (OPERATE TOTAL STATION, GPS RECEIVER, LEVEL, ROD OR RANGE POLES, STEEL TAPE MEASUREMENT; MARK AND DRIVE STAKES; HAND OR POWER DIGGING FOR AND IDENTIFICATION OF MARKERS OR MONUMENTS; PERFORM AND CHECK CALCULATIONS; REVIEW AND UNDERSTAND CONSTRUCTION PLANS AND LAND SURVEY MATERIALS)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "43.39",
+        "fringe": {
+          "fixed": "24.24"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "TERRAZZO WORKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "45.32",
+        "fringe": {
+          "fixed": "22.29"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "TILE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.61",
+        "fringe": {
+          "fixed": "23.32"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "TILE SETTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "43.43",
+        "fringe": {
+          "fixed": "29.15"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "TRAFFIC CONTROL PERSON (TEMPORARY SIGNAGE)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "43.39",
+        "fringe": {
+          "fixed": "24.24"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "TRUCK DRIVER (Group 1)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.85",
+        "fringe": {
+          "fixed": "9.02"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "TRUCK DRIVER (Group 2)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "38.39",
+        "fringe": {
+          "fixed": "23.70"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "TRUCK DRIVER (Group 3)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.50",
+        "fringe": {
+          "fixed": "6.50"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "TRUCK DRIVER (Group 4)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.50",
+        "fringe": {
+          "fixed": "9.42"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "Tunnel Miner"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "38.50",
+        "fringe": {
+          "fixed": "22.39"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "UNDERGROUND AND OPEN DITCH LABORER (EIGHT FEET BELOW STARTING GRADE LEVEL)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "43.13",
+        "fringe": {
+          "fixed": "24.24"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "WIRING SYSTEM TECHNICIAN"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "44.61",
+        "fringe": {
+          "fixed": "20.16"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "SAMN2023-027",
+      "survey_date": "2023-12-26",
+      "job": {
+        "classification": "WIRING SYSTEMS INSTALLER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "31.25",
+        "fringe": {
+          "fixed": "16.34"
+        }
+      }
+    },
+    {
+      "decision_number": "MN20240160",
+      "modification_number": 0,
+      "publication_date": "2024-06-07",
+      "effective": {
+        "start_date": "2024-06-07",
+        "end_date": "2025-01-03"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "MN",
+        "county": "Hennepin"
+      },
+      "rate_identifier": "",
+      "survey_date": "2024-06-07",
+      "job": {
+        "classification": "WELDER"
+      }
+    }
+  ]
+}

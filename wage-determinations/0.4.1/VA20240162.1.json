@@ -1,0 +1,2980 @@
+{
+  "VA20240162.1": [
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "ASBE0024-006",
+      "survey_date": "2023-10-01",
+      "job": {
+        "classification": "ASBESTOS WORKER/HEAT & FROST INSULATOR - MECHANICAL (Duct, Pipe & Mechanical System Insulation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "40.02",
+        "fringe": {
+          "fixed": "19.67",
+          "holidays": [
+            "Day After Thanksgiving",
+            "Labor Day",
+            "New Year's Day",
+            "Thanksgiving Day",
+            "Independence Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "ASBE0024-009",
+      "survey_date": "2023-10-01",
+      "job": {
+        "classification": "FIRESTOPPER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "29.80",
+        "fringe": {
+          "fixed": "9.83",
+          "holidays": [
+            "Day After Thanksgiving",
+            "Labor Day",
+            "New Year's Day",
+            "Thanksgiving Day",
+            "Independence Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "BOIL0045-003",
+      "survey_date": "2021-01-01",
+      "job": {
+        "classification": "BOILERMAKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "42.62",
+        "fringe": {
+          "fixed": "24.81"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "BRVA0001-008",
+      "survey_date": "2023-04-30",
+      "job": {
+        "classification": "BRICKLAYER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "36.50",
+        "fringe": {
+          "fixed": "13.47"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "BRVA0001-009",
+      "survey_date": "2023-04-30",
+      "job": {
+        "classification": "MASON - STONE"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "43.16",
+        "fringe": {
+          "fixed": "20.28"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "CARP0197-012",
+      "survey_date": "2023-05-01",
+      "job": {
+        "classification": "CARPENTER (Includes Acoustical Ceiling Installation, Drywall Hanging and Form Work)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "33.21",
+        "fringe": {
+          "fixed": "13.87"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "ELEC0026-003",
+      "survey_date": "2023-06-05",
+      "job": {
+        "classification": "ELECTRICIAN (Includes Low Voltage Wiring and Installation of Alarms and Sound and Communication Systems)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "53.00",
+        "fringe": {
+          "fixed": "21.35"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "IRON0005-010",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "IRONWORKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "36.10",
+        "fringe": {
+          "fixed": "25.19"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "PAIN0051-033",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "PAINTER: Spray Only"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.46",
+        "fringe": {
+          "fixed": "11.56"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "PAIN0051-034",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "GLAZIER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.52",
+        "fringe": {
+          "fixed": "13.85"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "PAIN0051-036",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "DRYWALL FINISHER/TAPER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.46",
+        "fringe": {
+          "fixed": "11.56"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "PLUM0005-014",
+      "survey_date": "2023-08-01",
+      "job": {
+        "classification": "PLUMBER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "49.00",
+        "fringe": {
+          "fixed": "22.21",
+          "holidays": [
+            "Day After Thanksgiving",
+            "Labor Day",
+            "New Year's Day",
+            "Thanksgiving Day",
+            "Independence Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "PLUM0602-016",
+      "survey_date": "2023-08-01",
+      "job": {
+        "classification": "PIPEFITTER (Includes HVAC Pipe, Unit and Temperature Controls Installations)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "50.27",
+        "fringe": {
+          "fixed": "23.32",
+          "holidays": [
+            "Day After Thanksgiving",
+            "Labor Day",
+            "New Year's Day",
+            "Thanksgiving Day",
+            "Independence Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SFVA0669-006",
+      "survey_date": "2024-01-01",
+      "job": {
+        "classification": "SPRINKLER FITTER (Fire Sprinklers)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "40.46",
+        "fringe": {
+          "fixed": "25.80"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SHEE0100-004",
+      "survey_date": "2021-11-01",
+      "job": {
+        "classification": "SHEET METAL WORKER (Includes HVAC Duct Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "44.37",
+        "fringe": {
+          "fixed": "21.33",
+          "holidays": [
+            "Labor Day",
+            "New Year's Day",
+            "Independence Day",
+            "Thanksgiving Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "BRICK POINTER/CAULKER/CLEANER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.68",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "CEMENT MASON/CONCRETE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.94",
+        "fringe": {
+          "fixed": "3.36"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "FLOOR LAYER: SOFT FLOORS"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.75",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "IRONWORKER, REINFORCING"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.85",
+        "fringe": {
+          "fixed": "6.94"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "LABORER: Common or General, including brick mason tending and cement mason tending"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.28",
+        "fringe": {
+          "fixed": "1.03"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "LABORER: Pipelayer"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.81",
+        "fringe": {
+          "fixed": "4.26"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Backhoe/Excavator/Trackhoe"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.50",
+        "fringe": {
+          "fixed": "4.50"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Bobcat/Skid Steer/Skid Loader"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.95",
+        "fringe": {
+          "fixed": "4.03"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Bulldozer"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.99",
+        "fringe": {
+          "fixed": "4.98"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Crane"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "31.68",
+        "fringe": {
+          "fixed": "2.64"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Forklift"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.56",
+        "fringe": {
+          "fixed": "7.57"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Loader"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.26",
+        "fringe": {
+          "fixed": "3.57"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Roller"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.25",
+        "fringe": {
+          "fixed": "4.88"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "PAINTER (Brush and Roller)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.92",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "ROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.83",
+        "fringe": {
+          "fixed": "3.06"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "TILE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.40",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "TILE SETTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.80",
+        "fringe": {
+          "fixed": "10.25"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "TRUCK DRIVER: Dump Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.22",
+        "fringe": {
+          "fixed": "2.58"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "WATERPROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.75",
+        "fringe": {
+          "fixed": "1.57"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Prince William"
+      },
+      "rate_identifier": "",
+      "survey_date": "2024-01-12",
+      "job": {
+        "classification": "WELDER"
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "ASBE0024-006",
+      "survey_date": "2023-10-01",
+      "job": {
+        "classification": "ASBESTOS WORKER/HEAT & FROST INSULATOR - MECHANICAL (Duct, Pipe & Mechanical System Insulation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "40.02",
+        "fringe": {
+          "fixed": "19.67",
+          "holidays": [
+            "Day After Thanksgiving",
+            "Labor Day",
+            "New Year's Day",
+            "Thanksgiving Day",
+            "Independence Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "ASBE0024-009",
+      "survey_date": "2023-10-01",
+      "job": {
+        "classification": "FIRESTOPPER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "29.80",
+        "fringe": {
+          "fixed": "9.83",
+          "holidays": [
+            "Day After Thanksgiving",
+            "Labor Day",
+            "New Year's Day",
+            "Thanksgiving Day",
+            "Independence Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "BOIL0045-003",
+      "survey_date": "2021-01-01",
+      "job": {
+        "classification": "BOILERMAKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "42.62",
+        "fringe": {
+          "fixed": "24.81"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "BRVA0001-008",
+      "survey_date": "2023-04-30",
+      "job": {
+        "classification": "BRICKLAYER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "36.50",
+        "fringe": {
+          "fixed": "13.47"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "BRVA0001-009",
+      "survey_date": "2023-04-30",
+      "job": {
+        "classification": "MASON - STONE"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "43.16",
+        "fringe": {
+          "fixed": "20.28"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "CARP0197-012",
+      "survey_date": "2023-05-01",
+      "job": {
+        "classification": "CARPENTER (Includes Acoustical Ceiling Installation, Drywall Hanging and Form Work)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "33.21",
+        "fringe": {
+          "fixed": "13.87"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "ELEC0026-003",
+      "survey_date": "2023-06-05",
+      "job": {
+        "classification": "ELECTRICIAN (Includes Low Voltage Wiring and Installation of Alarms and Sound and Communication Systems)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "53.00",
+        "fringe": {
+          "fixed": "21.35"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "IRON0005-010",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "IRONWORKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "36.10",
+        "fringe": {
+          "fixed": "25.19"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "PAIN0051-033",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "PAINTER: Spray Only"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.46",
+        "fringe": {
+          "fixed": "11.56"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "PAIN0051-034",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "GLAZIER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.52",
+        "fringe": {
+          "fixed": "13.85"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "PAIN0051-036",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "DRYWALL FINISHER/TAPER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.46",
+        "fringe": {
+          "fixed": "11.56"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "PLUM0005-014",
+      "survey_date": "2023-08-01",
+      "job": {
+        "classification": "PLUMBER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "49.00",
+        "fringe": {
+          "fixed": "22.21",
+          "holidays": [
+            "Day After Thanksgiving",
+            "Labor Day",
+            "New Year's Day",
+            "Thanksgiving Day",
+            "Independence Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "PLUM0602-016",
+      "survey_date": "2023-08-01",
+      "job": {
+        "classification": "PIPEFITTER (Includes HVAC Pipe, Unit and Temperature Controls Installations)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "50.27",
+        "fringe": {
+          "fixed": "23.32",
+          "holidays": [
+            "Day After Thanksgiving",
+            "Labor Day",
+            "New Year's Day",
+            "Thanksgiving Day",
+            "Independence Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SFVA0669-006",
+      "survey_date": "2024-01-01",
+      "job": {
+        "classification": "SPRINKLER FITTER (Fire Sprinklers)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "40.46",
+        "fringe": {
+          "fixed": "25.80"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SHEE0100-004",
+      "survey_date": "2021-11-01",
+      "job": {
+        "classification": "SHEET METAL WORKER (Includes HVAC Duct Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "44.37",
+        "fringe": {
+          "fixed": "21.33",
+          "holidays": [
+            "Labor Day",
+            "New Year's Day",
+            "Independence Day",
+            "Thanksgiving Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "BRICK POINTER/CAULKER/CLEANER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.68",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "CEMENT MASON/CONCRETE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.94",
+        "fringe": {
+          "fixed": "3.36"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "FLOOR LAYER: SOFT FLOORS"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.75",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "IRONWORKER, REINFORCING"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.85",
+        "fringe": {
+          "fixed": "6.94"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "LABORER: Common or General, including brick mason tending and cement mason tending"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.28",
+        "fringe": {
+          "fixed": "1.03"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "LABORER: Pipelayer"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.81",
+        "fringe": {
+          "fixed": "4.26"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Backhoe/Excavator/Trackhoe"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.50",
+        "fringe": {
+          "fixed": "4.50"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Bobcat/Skid Steer/Skid Loader"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.95",
+        "fringe": {
+          "fixed": "4.03"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Bulldozer"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.99",
+        "fringe": {
+          "fixed": "4.98"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Crane"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "31.68",
+        "fringe": {
+          "fixed": "2.64"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Forklift"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.56",
+        "fringe": {
+          "fixed": "7.57"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Loader"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.26",
+        "fringe": {
+          "fixed": "3.57"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Roller"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.25",
+        "fringe": {
+          "fixed": "4.88"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "PAINTER (Brush and Roller)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.92",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "ROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.83",
+        "fringe": {
+          "fixed": "3.06"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "TILE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.40",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "TILE SETTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.80",
+        "fringe": {
+          "fixed": "10.25"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "TRUCK DRIVER: Dump Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.22",
+        "fringe": {
+          "fixed": "2.58"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "WATERPROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.75",
+        "fringe": {
+          "fixed": "1.57"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas"
+      },
+      "rate_identifier": "",
+      "survey_date": "2024-01-12",
+      "job": {
+        "classification": "WELDER"
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "ASBE0024-006",
+      "survey_date": "2023-10-01",
+      "job": {
+        "classification": "ASBESTOS WORKER/HEAT & FROST INSULATOR - MECHANICAL (Duct, Pipe & Mechanical System Insulation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "40.02",
+        "fringe": {
+          "fixed": "19.67",
+          "holidays": [
+            "Day After Thanksgiving",
+            "Labor Day",
+            "New Year's Day",
+            "Thanksgiving Day",
+            "Independence Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "ASBE0024-009",
+      "survey_date": "2023-10-01",
+      "job": {
+        "classification": "FIRESTOPPER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "29.80",
+        "fringe": {
+          "fixed": "9.83",
+          "holidays": [
+            "Day After Thanksgiving",
+            "Labor Day",
+            "New Year's Day",
+            "Thanksgiving Day",
+            "Independence Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "BOIL0045-003",
+      "survey_date": "2021-01-01",
+      "job": {
+        "classification": "BOILERMAKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "42.62",
+        "fringe": {
+          "fixed": "24.81"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "BRVA0001-008",
+      "survey_date": "2023-04-30",
+      "job": {
+        "classification": "BRICKLAYER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "36.50",
+        "fringe": {
+          "fixed": "13.47"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "BRVA0001-009",
+      "survey_date": "2023-04-30",
+      "job": {
+        "classification": "MASON - STONE"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "43.16",
+        "fringe": {
+          "fixed": "20.28"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "CARP0197-012",
+      "survey_date": "2023-05-01",
+      "job": {
+        "classification": "CARPENTER (Includes Acoustical Ceiling Installation, Drywall Hanging and Form Work)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "33.21",
+        "fringe": {
+          "fixed": "13.87"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "ELEC0026-003",
+      "survey_date": "2023-06-05",
+      "job": {
+        "classification": "ELECTRICIAN (Includes Low Voltage Wiring and Installation of Alarms and Sound and Communication Systems)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "53.00",
+        "fringe": {
+          "fixed": "21.35"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "IRON0005-010",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "IRONWORKER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "36.10",
+        "fringe": {
+          "fixed": "25.19"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "PAIN0051-033",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "PAINTER: Spray Only"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.46",
+        "fringe": {
+          "fixed": "11.56"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "PAIN0051-034",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "GLAZIER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "30.52",
+        "fringe": {
+          "fixed": "13.85"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "PAIN0051-036",
+      "survey_date": "2023-06-01",
+      "job": {
+        "classification": "DRYWALL FINISHER/TAPER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.46",
+        "fringe": {
+          "fixed": "11.56"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "PLUM0005-014",
+      "survey_date": "2023-08-01",
+      "job": {
+        "classification": "PLUMBER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "49.00",
+        "fringe": {
+          "fixed": "22.21",
+          "holidays": [
+            "Day After Thanksgiving",
+            "Labor Day",
+            "New Year's Day",
+            "Thanksgiving Day",
+            "Independence Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "PLUM0602-016",
+      "survey_date": "2023-08-01",
+      "job": {
+        "classification": "PIPEFITTER (Includes HVAC Pipe, Unit and Temperature Controls Installations)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "50.27",
+        "fringe": {
+          "fixed": "23.32",
+          "holidays": [
+            "Day After Thanksgiving",
+            "Labor Day",
+            "New Year's Day",
+            "Thanksgiving Day",
+            "Independence Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SFVA0669-006",
+      "survey_date": "2024-01-01",
+      "job": {
+        "classification": "SPRINKLER FITTER (Fire Sprinklers)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "40.46",
+        "fringe": {
+          "fixed": "25.80"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SHEE0100-004",
+      "survey_date": "2021-11-01",
+      "job": {
+        "classification": "SHEET METAL WORKER (Includes HVAC Duct Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "44.37",
+        "fringe": {
+          "fixed": "21.33",
+          "holidays": [
+            "Labor Day",
+            "New Year's Day",
+            "Independence Day",
+            "Thanksgiving Day",
+            "Martin Luther King Jr. Day",
+            "Christmas Day",
+            "Veterans Day",
+            "Memorial Day"
+          ]
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "BRICK POINTER/CAULKER/CLEANER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.68",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "CEMENT MASON/CONCRETE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.94",
+        "fringe": {
+          "fixed": "3.36"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "FLOOR LAYER: SOFT FLOORS"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.75",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "IRONWORKER, REINFORCING"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.85",
+        "fringe": {
+          "fixed": "6.94"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "LABORER: Common or General, including brick mason tending and cement mason tending"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "13.28",
+        "fringe": {
+          "fixed": "1.03"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "LABORER: Pipelayer"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.81",
+        "fringe": {
+          "fixed": "4.26"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Backhoe/Excavator/Trackhoe"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.50",
+        "fringe": {
+          "fixed": "4.50"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Bobcat/Skid Steer/Skid Loader"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.95",
+        "fringe": {
+          "fixed": "4.03"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Bulldozer"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.99",
+        "fringe": {
+          "fixed": "4.98"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Crane"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "31.68",
+        "fringe": {
+          "fixed": "2.64"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Forklift"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.56",
+        "fringe": {
+          "fixed": "7.57"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Loader"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "22.26",
+        "fringe": {
+          "fixed": "3.57"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "OPERATOR: Roller"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.25",
+        "fringe": {
+          "fixed": "4.88"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "PAINTER (Brush and Roller)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "18.92",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "ROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "15.83",
+        "fringe": {
+          "fixed": "3.06"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "TILE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "23.40",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "TILE SETTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.80",
+        "fringe": {
+          "fixed": "10.25"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "TRUCK DRIVER: Dump Truck"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "19.22",
+        "fringe": {
+          "fixed": "2.58"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "SUVA2013-046",
+      "survey_date": "2016-01-11",
+      "job": {
+        "classification": "WATERPROOFER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "21.75",
+        "fringe": {
+          "fixed": "1.57"
+        }
+      }
+    },
+    {
+      "decision_number": "VA20240162",
+      "modification_number": 1,
+      "publication_date": "2024-01-12",
+      "effective": {
+        "start_date": "2024-01-12",
+        "end_date": "2024-04-05"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "VA",
+        "county": "Manassas Park"
+      },
+      "rate_identifier": "",
+      "survey_date": "2024-01-12",
+      "job": {
+        "classification": "WELDER"
+      }
+    }
+  ]
+}

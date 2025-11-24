@@ -96,11 +96,14 @@ def get_effective_dates(decision_number, modification_number, publication_date):
     return effective_dates
 
 
-def get_counties(document):
+def get_counties(state, document):
     document = re.sub(r'\s+', ' ', document).strip()
     match = re.search(r'Count(?:y|ies): (.+) Count(?:y|ies) in', document)
     if match:
-        return split_text_list(match[1])
+        counties = split_text_list(match[1])
+        if state == 'VA' and 'Prince William' in counties:
+            counties.extend(['Manassas', 'Manassas Park'])
+        return counties
     else:
         return []
 
@@ -441,6 +444,81 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
                 'Christmas Day',
             }
             job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
+    if state == 'VA':
+        if job['classification'].startswith('ASBESTOS WORKER'):
+            job_wages = []
+            modified_wage = copy.deepcopy(wage)
+            modified_wage['fringe']['holidays'] = {
+                'New Year\'s Day',
+                'Martin Luther King Jr. Day',
+                'Memorial Day',
+                'Independence Day',
+                'Labor Day',
+                'Veterans Day',
+                'Thanksgiving Day',
+                'Day After Thanksgiving',
+                'Christmas Day',
+            }
+            job_wages.append((rate_identifier, survey_date, job, modified_wage))
+        elif job['classification'].startswith('FIRESTOPPER'):
+            job_wages = []
+            modified_wage = copy.deepcopy(wage)
+            modified_wage['fringe']['holidays'] = {
+                'New Year\'s Day',
+                'Martin Luther King Jr. Day',
+                'Memorial Day',
+                'Independence Day',
+                'Labor Day',
+                'Veterans Day',
+                'Thanksgiving Day',
+                'Day After Thanksgiving',
+                'Christmas Day',
+            }
+            job_wages.append((rate_identifier, survey_date, job, modified_wage))
+        elif job['classification'].startswith('PLUMBER'):
+            job_wages = []
+            modified_wage = copy.deepcopy(wage)
+            modified_wage['fringe']['holidays'] = {
+                'New Year\'s Day',
+                'Martin Luther King Jr. Day',
+                'Memorial Day',
+                'Independence Day',
+                'Labor Day',
+                'Veterans Day',
+                'Thanksgiving Day',
+                'Day After Thanksgiving',
+                'Christmas Day',
+            }
+            job_wages.append((rate_identifier, survey_date, job, modified_wage))
+        elif job['classification'].startswith('PIPEFITTER'):
+            job_wages = []
+            modified_wage = copy.deepcopy(wage)
+            modified_wage['fringe']['holidays'] = {
+                'New Year\'s Day',
+                'Martin Luther King Jr. Day',
+                'Memorial Day',
+                'Independence Day',
+                'Labor Day',
+                'Veterans Day',
+                'Thanksgiving Day',
+                'Day After Thanksgiving',
+                'Christmas Day',
+            }
+            job_wages.append((rate_identifier, survey_date, job, modified_wage))
+        elif job['classification'].startswith('SHEET METAL WORKER'):
+            job_wages = []
+            modified_wage = copy.deepcopy(wage)
+            modified_wage['fringe']['holidays'] = {
+                'New Year\'s Day',
+                'Martin Luther King Jr. Day',
+                'Memorial Day',
+                'Independence Day',
+                'Labor Day',
+                'Veterans Day',
+                'Thanksgiving Day',
+                'Christmas Day',
+            }
+            job_wages.append((rate_identifier, survey_date, job, modified_wage))
     return job_wages
 
 
@@ -521,7 +599,7 @@ def create_wage_determinations(decision_number, modification_number, active, sta
     publication_date = get_publication_date(document)
     effective_dates = get_effective_dates(decision_number, modification_number, publication_date)
     construction_types = get_construction_types(document)
-    counties = get_counties(document)
+    counties = get_counties(state, document)
     job_wages = get_job_wages(state, document)
     wage_determination = {
         'decision_number': decision_number,

@@ -1,0 +1,483 @@
+{
+  "NM20210047.5": [
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "ASBE0076-008",
+      "survey_date": "2021-01-01",
+      "job": {
+        "classification": "ASBESTOS WORKER/HEAT & FROST INSULATOR"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "35.44",
+        "fringe": {
+          "fixed": "11.73"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "CARP1319-018",
+      "survey_date": "2020-07-01",
+      "job": {
+        "classification": "CARPENTER (Form Work Only)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "24.63",
+        "fringe": {
+          "fixed": "11.69"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "CARP1505-001",
+      "survey_date": "2018-06-01",
+      "job": {
+        "classification": "CARPENTER (Includes Drywall Finishing/Taping, Drywall Hanging, and Metal Stud Installation (Excludes Form Work))"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "24.08",
+        "fringe": {
+          "fixed": "10.79"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "ELEV0131-002",
+      "survey_date": "2021-01-01",
+      "job": {
+        "classification": "ELEVATOR MECHANIC"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "45.27",
+        "fringe": {
+          "fixed": "35.83"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "IRON0495-002",
+      "survey_date": "2021-01-01",
+      "job": {
+        "classification": "IRONWORKER, STRUCTURAL"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.35",
+        "fringe": {
+          "fixed": "17.30"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "PLUM0412-014",
+      "survey_date": "2021-01-01",
+      "job": {
+        "classification": "PIPEFITTER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "34.65",
+        "fringe": {
+          "fixed": "13.70"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "PLUM0412-014",
+      "survey_date": "2021-01-01",
+      "job": {
+        "classification": "PLUMBER (Includes HVAC Pipe Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "34.65",
+        "fringe": {
+          "fixed": "13.70"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "SFNM0669-001",
+      "survey_date": "2021-04-01",
+      "job": {
+        "classification": "SPRINKLER FITTER (Fire Sprinklers)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "32.67",
+        "fringe": {
+          "fixed": "23.21"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "SHEE0049-004",
+      "survey_date": "2021-01-01",
+      "job": {
+        "classification": "Sheet Metal Worker (Including HVAC Duct and Unit Installation)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "33.38",
+        "fringe": {
+          "fixed": "15.62"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "SUNM2016-004",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "CEMENT MASON/CONCRETE FINISHER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "17.87",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "SUNM2016-004",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "ELECTRICIAN"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "25.73",
+        "fringe": {
+          "fixed": "5.69"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "SUNM2016-004",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "GLAZIER"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "20.15",
+        "fringe": {
+          "fixed": "3.48"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "SUNM2016-004",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "LABORER: Common or General"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.70",
+        "fringe": {
+          "fixed": "0.00"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "SUNM2016-004",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "LABORER: Mason Tender - Cement/Concrete"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "14.72",
+        "fringe": {
+          "fixed": "5.61"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "SUNM2016-004",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "OPERATOR: Backhoe/Excavator/Trackhoe"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "27.97",
+        "fringe": {
+          "fixed": "5.16"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "SUNM2016-004",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "PAINTER (Brush and Roller)"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.60",
+        "fringe": {
+          "fixed": "3.88"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "SUNM2016-004",
+      "survey_date": "2018-09-26",
+      "job": {
+        "classification": "PAINTER: Spray"
+      },
+      "wage": {
+        "currency": "USD",
+        "rate": "16.51",
+        "fringe": {
+          "fixed": "2.14"
+        }
+      }
+    },
+    {
+      "decision_number": "NM20210047",
+      "modification_number": 5,
+      "publication_date": "2021-05-21",
+      "effective": {
+        "start_date": "2021-05-21",
+        "end_date": "2021-10-29"
+      },
+      "active": false,
+      "construction_type": "building",
+      "location": {
+        "state": "NM",
+        "county": "Sandoval"
+      },
+      "rate_identifier": "",
+      "survey_date": "2021-05-21",
+      "job": {
+        "classification": "WELDER"
+      }
+    }
+  ]
+}
