@@ -10,7 +10,7 @@ cp data/wage-determinations/ID/ID20230104.0.json wage-determinations/0.4.1/
 # cp data/wage-determinations/MI/MI20240101.11.json wage-determinations/
 cp data/wage-determinations/MN/MN20240160.0.json wage-determinations/0.4.1/
 cp data/wage-determinations/MO/MO20220050.3.json wage-determinations/0.4.1/
-cp data/wage-determinations/NH/NH20200021.1.json wage-determinations/0.4.1/
+cp data/wage-determinations/NH/NH20200021.4.json wage-determinations/0.4.1/
 cp data/wage-determinations/NM/NM20210047.5.json wage-determinations/0.4.1/
 cp data/wage-determinations/NM/NM20240044.0.json wage-determinations/0.4.1/
 # TODO holidays and complexity cp data/wage-determinations/NY/NY20210025.3.json wage-determinations/

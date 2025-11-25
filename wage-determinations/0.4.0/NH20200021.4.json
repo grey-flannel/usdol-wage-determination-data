@@ -1,12 +1,12 @@
 {
-  "NH20200021.1": [
+  "NH20200021.4": [
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -29,11 +29,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -56,11 +56,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -69,25 +69,25 @@
         "county": "Hillsborough"
       },
       "rate_identifier": "BRNH0003-001",
-      "survey_date": "2018-05-01",
+      "survey_date": "2020-06-01",
       "job": {
         "classification": "BRICKLAYER"
       },
       "wage": {
         "currency": "USD",
-        "rate": "30.36",
+        "rate": "42.55",
         "fringe": {
-          "fixed": "25.20"
+          "fixed": "28.02"
         }
       }
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -96,25 +96,25 @@
         "county": "Hillsborough"
       },
       "rate_identifier": "ELEC0490-006",
-      "survey_date": "2019-12-11",
+      "survey_date": "2020-06-01",
       "job": {
         "classification": "ELECTRICIAN (Includes Low Voltage Wiring and Alarm Installation)"
       },
       "wage": {
         "currency": "USD",
-        "rate": "30.13",
+        "rate": "31.03",
         "fringe": {
-          "fixed": "20.12"
+          "fixed": "20.60"
         }
       }
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -148,11 +148,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -186,11 +186,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -213,11 +213,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -240,11 +240,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -267,11 +267,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -294,11 +294,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -321,11 +321,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -348,11 +348,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -375,11 +375,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -402,11 +402,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -429,11 +429,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -456,11 +456,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -483,11 +483,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -510,11 +510,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -537,11 +537,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -564,11 +564,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -591,11 +591,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -618,11 +618,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -645,11 +645,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -672,11 +672,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -699,11 +699,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -726,11 +726,11 @@
     },
     {
       "decision_number": "NH20200021",
-      "modification_number": 1,
-      "publication_date": "2020-01-24",
+      "modification_number": 4,
+      "publication_date": "2020-07-10",
       "effective": {
-        "start_date": "2020-01-24",
-        "end_date": "2020-02-14"
+        "start_date": "2020-07-10",
+        "end_date": "2021-01-01"
       },
       "active": false,
       "construction_type": "building",
@@ -739,7 +739,7 @@
         "county": "Hillsborough"
       },
       "rate_identifier": "",
-      "survey_date": "2020-01-24",
+      "survey_date": "2020-07-10",
       "job": {
         "classification": "WELDER"
       }
