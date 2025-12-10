@@ -29,6 +29,17 @@ def split_text_list(text):
     return text.split(', ')
 
 
+def write_wage_determination_document(decision_number, modification_number, state, document):
+    document_path = os.path.join('data', 'documents', state)
+    document_filename = os.path.join(document_path, f'{decision_number}.{modification_number}.txt')
+    if os.path.isfile(document_filename):
+        return
+    os.makedirs(document_path, exist_ok=True)
+    print(f'Writing wage determination document to {document_filename}')
+    with open(document_filename, 'w') as document_file:
+        document_file.write(document)
+
+
 @cachier.cachier()
 def get_wage_determination_record_from_sam(decision_number, modification_number):
     state = decision_number[0:2]
@@ -60,6 +71,9 @@ def get_wage_determination_record_from_document(decision_number, modification_nu
 def get_wage_determination_record(decision_number, modification_number):
     sam_record = get_wage_determination_record_from_sam(decision_number, modification_number)
     if sam_record:
+        state = sam_record[3]
+        document = sam_record[4]
+        write_wage_determination_document(decision_number, modification_number, state, document)
         return sam_record
     file_record = get_wage_determination_record_from_document(decision_number, modification_number)
     if file_record:
@@ -243,7 +257,7 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
             zone_b_note = 'ZONE B: A distance of 101 miles and over from the old Phoenix courthouse'
             job['classification'] = job['classification'].replace('ZONE B', zone_b_note)
         job_wages.append((rate_identifier, survey_date, job, wage))
-    if state == 'CO' and job['classification'].startswith('ELEVATOR MECHANIC'):
+    if state == 'CO' and job['classification'].startswith('ELEVATOR MECHANIC') and footnotes:
         modifications = [
             (' (Under 5 years)', '0.06'),
             (' (Over 5 years)', '0.08'),
@@ -278,7 +292,7 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
             modified_job['classification'] += classification_suffix
             modified_wage['rate'] = str(decimal.Decimal(modified_wage['rate']) + rate_increase)
             job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
-    if state == 'MO' and job['classification'].startswith('ELEVATOR MECHANIC'):
+    if state == 'MO' and job['classification'].startswith('ELEVATOR MECHANIC') and footnotes:
         modifications = [
             (' (6 months to 5 years)', '0.06'),
             (' (5 years or more)', '0.08'),
@@ -334,7 +348,7 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
                 'Christmas Day',
             }
             job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
-    if state == 'NM' and job['classification'].startswith('ELEVATOR MECHANIC'):
+    if state == 'NM' and job['classification'].startswith('ELEVATOR MECHANIC') and footnotes:
         modifications = [
             (' (Less than 5 years)', '0.06'),
             (' (More than 5 years)', '0.08'),
@@ -356,7 +370,7 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
                 'Christmas Day',
             }
             job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
-    if state == 'OH' and job['classification'].startswith('ELEVATOR MECHANIC'):
+    if state == 'OH' and job['classification'].startswith('ELEVATOR MECHANIC') and footnotes:
         modifications = [
             (' (Less than 5 years)', '0.06'),
             (' (More than 5 years)', '0.08'),
@@ -378,7 +392,7 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
                 'Christmas Day',
             }
             job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
-    if state == 'PA' and job['classification'].startswith('ELEVATOR MECHANIC'):
+    if state == 'PA' and job['classification'].startswith('ELEVATOR MECHANIC') and footnotes:
         modifications = [
             (' (6 months to 5 years)', '0.06'),
             (' (5 years or more)', '0.08'),
@@ -400,7 +414,7 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
                 'Christmas Day',
             }
             job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
-    if state == 'TX' and job['classification'].startswith('ELEVATOR MECHANIC'):
+    if state == 'TX' and job['classification'].startswith('ELEVATOR MECHANIC') and footnotes:
         modifications = [
             (' (Under 5 years)', '0.06'),
             (' (Over 5 years)', '0.08'),
@@ -422,7 +436,7 @@ def apply_special_case_modifications(state, rate_identifier, survey_date, job, w
                 'Christmas Day',
             }
             job_wages.append((rate_identifier, survey_date, modified_job, modified_wage))
-    if state == 'UT' and job['classification'].startswith('ELEVATOR MECHANIC'):
+    if state == 'UT' and job['classification'].startswith('ELEVATOR MECHANIC') and footnotes:
         modifications = [
             (' (Under 5 years)', '0.06'),
             (' (5 or more years)', '0.08'),
@@ -630,15 +644,6 @@ def serialize_wage_determinations(wage_determinations):
     return serialized_wage_determinations
 
 
-def write_wage_determination_document(decision_number, modification_number, state, document):
-    document_path = os.path.join('data', 'documents', state)
-    document_filename = os.path.join(document_path, f'{decision_number}.{modification_number}.txt')
-    os.makedirs(document_path, exist_ok=True)
-    print(f'Writing wage determination document to {document_filename}')
-    with open(document_filename, 'w') as document_file:
-        document_file.write(document)
-
-
 def write_wage_determination_records(decision_number, modification_number, state, wage_determinations):
     wage_determination_path = os.path.join('data', 'wage-determinations', state)
     wage_determination_filename = os.path.join(wage_determination_path, f'{decision_number}.{modification_number}.json')
@@ -655,7 +660,6 @@ print(f'Collected {len(record_list)} wage determination documents to be parsed')
 
 
 for decision_number, modification_number, active, state, document in record_list:
-    write_wage_determination_document(decision_number, modification_number, state, document)
     try:
         wage_determinations = create_wage_determinations(decision_number, modification_number, active, state, document)
     except Exception as error:

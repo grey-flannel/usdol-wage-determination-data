@@ -242,14 +242,14 @@
           "fixed": "36.885",
           "percentage": "0.06",
           "holidays": [
-            "Memorial Day",
             "Thanksgiving Day",
-            "Christmas Day",
-            "Day After Thanksgiving",
-            "New Year's Day",
+            "Labor Day",
             "Veterans Day",
+            "Day After Thanksgiving",
             "Independence Day",
-            "Labor Day"
+            "New Year's Day",
+            "Memorial Day",
+            "Christmas Day"
           ]
         }
       }
@@ -280,14 +280,14 @@
           "fixed": "36.885",
           "percentage": "0.08",
           "holidays": [
-            "Memorial Day",
             "Thanksgiving Day",
-            "Christmas Day",
-            "Day After Thanksgiving",
-            "New Year's Day",
+            "Labor Day",
             "Veterans Day",
+            "Day After Thanksgiving",
             "Independence Day",
-            "Labor Day"
+            "New Year's Day",
+            "Memorial Day",
+            "Christmas Day"
           ]
         }
       }
@@ -830,12 +830,12 @@
         "fringe": {
           "fixed": "0.0",
           "holidays": [
-            "Memorial Day",
             "Thanksgiving Day",
-            "Christmas Day",
-            "New Year's Day",
+            "Labor Day",
             "Independence Day",
-            "Labor Day"
+            "New Year's Day",
+            "Memorial Day",
+            "Christmas Day"
           ]
         }
       }

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+mkdir -p wage-determinations/0.4.1
+
 cp data/wage-determinations/AZ/AZ20220031.0.json wage-determinations/0.4.1/
 cp data/wage-determinations/AZ/AZ20240039.7.json wage-determinations/0.4.1/
 # cp data/wage-determinations/CA/CA20240018.20.json wage-determinations/
